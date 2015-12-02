@@ -87,7 +87,7 @@ public class Perceptron {
     }
 
     public double multipleWandX(int index) {
-        double ret = (double) 0.0;
+        double ret = 0.0;
         for (int i = 0; i < dim; i++)
             ret += w[i] * x[index][i];
         return ret;

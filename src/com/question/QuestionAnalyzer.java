@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * E-mail:             air_fighter@163.com
  *
  * Create Time:        2015/11/26 10:37
- * Last Modified Time: 2015/11/26
+ * Last Modified Time: 2015/11/30
  *
  * Class Name:         QuestionAnalyzer
  * Class Function:
@@ -19,8 +19,8 @@ import java.util.ArrayList;
  */
 
 public class QuestionAnalyzer {
-    public float[] materialW = new float[2];
-    public float materialB = (float) 0.0;
+    private double[] materialW = new double[2];
+    private double materialB = 0.0;
 
     public void materialRelevanceModelTrain(ArrayList<Question> questionList) {
         int[] y = new int[questionList.size()];
@@ -36,8 +36,14 @@ public class QuestionAnalyzer {
             System.out.print(y[i] + " ");
         }
          */
+    }
 
+    public double[] getQuoteRatio(ArrayList<Question> questionList) {
+        double[] quoteRatio = new double[2];
+        for (int i = 0; i < questionList.size(); i++) {
 
+        }
+        return quoteRatio;
     }
 
     public static void main(String[] args) throws Exception{

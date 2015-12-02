@@ -10,7 +10,7 @@ import com.shawn.BasicIO;
  * E-mail:             air_fighter@163.com
  *
  * Create Time:        2015/11/26 08:41
- * Last Modified Time: 2015/11/26 10:37
+ * Last Modified Time: 2015/12/2  09:31
  *
  * Class Name:         QuestionAcquisition
  * Class Function:
@@ -21,9 +21,32 @@ public class QuestionAcquisition {
     public ArrayList<Question> questionList = new ArrayList<>();
 
     public void init() throws IOException, ClassNotFoundException {
-        String inputString = BasicIO.readFile2String("questionFactory.txt");
-        inputString += "1.";
+        ArrayList<String> questionCandidateList = BasicIO.readFile2StringArray("questionFactory.txt");
+        int odd = 1;
+        Question question;
+        for (String indexString : questionCandidateList) {
+            if (odd == 1) {
+                question = new Question();
+                question.setQuestion(indexString);
+                questionList.add(question);
+                odd = 0;
+                continue;
+            }
+            else {
+                for (int i = 3; i >= 0; i--) {
+                    questionList.get(questionList.size() - 1).setCandidate(i, indexString.split((char) Integer.sum(65, i) + ".")[1]);
+                    indexString = indexString.split((char) Integer.sum(65, i) + ".")[0];
+                    //System.out.println(question.getCandidates(i-1));
+                }
+                odd = 1;
+                continue;
+            }
+        }
 
+
+        /**
+         String inputString = BasicIO.readFile2String("questionFactory.txt");
+         inputString += "1.";
         String splitString = "\\d+" + "\\.";
 
         for(String indexString : inputString.split(splitString)) {
@@ -49,6 +72,7 @@ public class QuestionAcquisition {
 
             questionList.add(question);
         }
+         */
 
     }
 
