@@ -21,7 +21,7 @@ public class QuestionAcquisition {
     public ArrayList<Question> questionList = new ArrayList<>();
 
     public void init() throws IOException, ClassNotFoundException {
-        ArrayList<String> questionCandidateList = BasicIO.readFile2StringArray("questionFactory.txt");
+        ArrayList<String> questionCandidateList = BasicIO.readFile2StringArray("text\\questionFactory.txt");
         int odd = 1;
         Question question;
         for (String indexString : questionCandidateList) {

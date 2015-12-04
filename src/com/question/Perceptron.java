@@ -58,9 +58,9 @@ public class Perceptron {
         for(int i = 0; i < dim; i++)
             w[i] = 0.0;
         while(wrongNum != 0) {
-            wrongNum = dim;
+            iterNum++;
+            wrongNum = num;
             for(int i = 0; i < num; i++) {
-                iterNum++;
                 if(multipleWandX(i) + b > 0) {
                     wrongNum--;
                     continue;
@@ -71,6 +71,8 @@ public class Perceptron {
                     b = b + eta*y[i];
                 }
             }
+            System.out.println("Iter:" + iterNum + "WrongNum:" + wrongNum);
+
         }
     }
 
