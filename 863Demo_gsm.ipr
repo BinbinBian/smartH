@@ -21,9 +21,6 @@
   </component>
   <component name="CopyrightManager" default="" />
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/question.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/questionFactory.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/question_all_new.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/question/QuestionAcquisition.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

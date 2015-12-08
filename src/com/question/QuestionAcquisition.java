@@ -20,8 +20,8 @@ import com.shawn.BasicIO;
 public class QuestionAcquisition {
     public ArrayList<Question> questionList = new ArrayList<>();
 
-    public void init() throws IOException, ClassNotFoundException {
-        ArrayList<String> questionCandidateList = BasicIO.readFile2StringArray("text\\questionFactory.txt");
+    public void init(String fileName) throws IOException, ClassNotFoundException {
+        ArrayList<String> questionCandidateList = BasicIO.readFile2StringArray(fileName);
         int odd = 1;
         Question question;
         for (String indexString : questionCandidateList) {
@@ -42,43 +42,11 @@ public class QuestionAcquisition {
                 continue;
             }
         }
-
-
-        /**
-         String inputString = BasicIO.readFile2String("questionFactory.txt");
-         inputString += "1.";
-        String splitString = "\\d+" + "\\.";
-
-        for(String indexString : inputString.split(splitString)) {
-            if (indexString.length() <= 5)
-                continue;
-
-            String questionString = indexString;
-            questionString += "E. ";
-            //System.out.println(questionString);
-
-            Question question = new Question();
-            for (int i = 0; i < 5; i++) {
-                if (i == 0) {
-                    question.setQuestion(questionString.split((char) Integer.sum(65, i) + ".")[0]);
-                    //System.out.print(question.getQuestion() + "\n");
-                }
-                else {
-                    question.setCandidate(i - 1, questionString.split((char) Integer.sum(65, i) + ".")[0]);
-                    //System.out.println(question.getCandidates(i-1));
-                }
-                questionString =  questionString.split((char)Integer.sum(65, i) + ".")[1];
-            }
-
-            questionList.add(question);
-        }
-         */
-
     }
 
     public static void main(String[] args) throws Exception {
         QuestionAcquisition self = new QuestionAcquisition();
-        self.init();
+        self.init("data\\questions\\questions70.txt");
 
         for (int i = 0; i < self.questionList.size(); i++) {
             System.out.print("Question " + (i + 1) +": ");

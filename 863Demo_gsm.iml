@@ -19,25 +19,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/lucene-core-5.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/libsvm.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library>
+      <library name="lucene-analyzers-common-4.10.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mmseg4j-core-1.9.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mmseg4j-analysis-1.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lucene-analyzers-common-4.10.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lucene-core-4.10.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lucene-queries-4.10.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lucene-queryparser-4.10.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
