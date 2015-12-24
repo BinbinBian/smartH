@@ -1,0 +1,1008 @@
+Question #1
+Question:	1.公元97年，东汉的班超曾派人出使欧洲强国“大秦”。东汉和“大秦”都创造了辉煌的文化。属于它们的文化成就分别是
+Candidates:	A.活字印刷术、万有引力定律 B.《九章算术》、罗马法 C.蔡伦改进的造纸术、日心说 D.《春秋繁露》、《理想国》
+Candidate Type:	1
+Candidates Segment:	
+活字印刷术 、 万有引力定律 n wn n 
+《 九章算术 》 、 罗马法 wkz n wky wn n 
+蔡 伦 改进 的 造纸术 、 日心说 nr1 ng v ude1 n wn n 
+《 春秋繁露 》 、 《 理想国 》 wkz n wky wn wkz n wky 
+Type:	5
+Materials:	1.公元97年，东汉的班超曾派人出使欧洲强国“大秦”。东汉和“大秦”都创造了辉煌的文化。
+QuestionStem:	属于它们的文化成就分别是
+Original Material:	“大秦” 
+
+Question #2
+Question:	2.唐末五代，中央集权大为削弱。为扭转这一局面，宋初采取的重要措施之一是
+Candidates:	A.文官任知州 B.设三司使 C.设枢密院 D.施行将兵法
+Candidate Type:	2
+Candidates Segment:	
+文官 任知 州 n n n 
+设 三司使 v n 
+设 枢密院 v n 
+施行 将兵法 v n 
+Type:	5
+Materials:	2.唐末五代，中央集权大为削弱。
+QuestionStem:	为扭转这一局面，宋初采取的重要措施之一是
+Original Material:	
+
+Question #3
+Question:	3.在历史学科的研究性学习中经常出现的错误是，使用单一或不充分的论据得出普遍性的结论。下列选项中没有这类错误的是
+Candidates:	A.《授时历》的颁行比现行公历早300年，所以中国古代科技水平领先世界 B.《西游记》是明代的一部优秀小说，所以明代文学蓬勃发展 C.唐代369位宰相中有83%来自北方，所以唐代宰相的来源存在地域差异 D.南宋扬州的城市人口占扬州总人口的81%，所以南宋的城市化水平很高
+Candidate Type:	2
+Candidates Segment:	
+《 授时历 》 的 颁行 比 现行 公历 早 300 年 ， 所以 中国古代科技 水平 领先 世界 wkz n wky ude1 vn p b n tg m qt wd c n n vn n 
+《 西游记 》 是 明代 的 一部 优秀 小说 ， 所以 明代文学 蓬勃 发展 wkz nz wky vshi t ude1 n a n wd c n ad v 
+唐代 369 位 宰相 中有 83% 来自 北方 ， 所以 唐代 宰相 的 来源 存在 地域差异 t m q n n m v s wd c t n ude1 n v n 
+南宋 扬州 的 城市人口 占 扬州 总人口 的 81% ， 所以 南宋 的 城市化水平 很 高 t ns ude1 n v ns n ude1 m wd c t ude1 n d a 
+Type:	4
+Materials:	3.在历史学科的研究性学习中经常出现的错误是，使用单一或不充分的论据得出普遍性的结论。
+QuestionStem:	下列选项中没有这类错误的是
+Original Material:	
+
+Question #4
+Question:	4.《海国图志》中出现了一些外来词汇，如“西业”（参议院）、“里勃里先好司”（众议院）、“勃列西领”（总统）等。结合所学判断，该书
+Candidates:	A.主要内容是介绍西方政治体制 B.对西方政治体制已有所涉及 C.提出中国要学习西方代议制度 D.为戊戌变法提供了理论基础
+Candidate Type:	2
+Candidates Segment:	
+主要内容 是 介绍 西方 政治体制 n vshi v s n 
+对 西方 政治体制 已 有 所 涉及 p s n d vyou usuo v 
+提出 中国 要 学习 西方 代议制度 v ns v v s n 
+为 戊戌变法 提供 了 理论 基础 p nz v ule n n 
+Type:	5
+Materials:	4.《海国图志》中出现了一些外来词汇，如“西业”（参议院）、“里勃里先好司”（众议院）、“勃列西领”（总统）等。
+QuestionStem:	结合所学判断，该书
+Original Material:	“西业” “勃列西领” “里勃里先好司” 
+
+Question #5
+Question:	5.“单干邀伴变互助，小组联起变大组，大组变做合作社，领导要靠党支部。”这首歌谣反映了
+Candidates:	A.人民公社化运动 B.家庭（联产）承包责任制 C.农业社会主义改造 D.中共八大经济方针
+Candidate Type:	2
+Candidates Segment:	
+人民公社化 运动 n vn 
+家庭 （ 联 产 ） 承包责任制 n wkz vg v wky n 
+农业社会主义改造 n 
+中共 八大 经济 方针 n n n n 
+Type:	5
+Materials:	5.“单干邀伴变互助，小组联起变大组，大组变做合作社，领导要靠党支部。”
+QuestionStem:	这首歌谣反映了
+Original Material:	“单干邀伴变互助，小组联起变大组，大组变做合作社，领导要靠党支部。” 
+
+Question #6
+Question:	6.1977年10月21日，《人民日报》头版头条刊登了“高等学校招生进行重大改革”的报道。这一“重大改革”是
+Candidates:	A.教育领域拨乱反正的重要措施 B.实施“科教兴国”战略的重要步骤 C.贯彻十一届三中全会精神的重要举措 D.贯彻“三个面向”教育方针的具体体现
+Candidate Type:	2
+Candidates Segment:	
+教育 领域 拨乱反正 的 重要 措施 vn n vl ude1 a n 
+实施 “ 科教兴国 ” 战略 的 重要 步骤 v wyz vl wyy n ude1 a n 
+贯彻 十一 届 三中全会 精神 的 重要 举措 v n q n n ude1 a n 
+贯彻 “ 三个面向 ” 教育方针 的 具体 体现 v wyz n wyy n ude1 ad v 
+Type:	5
+Materials:	6.1977年10月21日，《人民日报》头版头条刊登了“高等学校招生进行重大改革”的报道。
+QuestionStem:	这一“重大改革”是
+Original Material:	“高等学校招生进行重大改革” “重大改革” 
+
+Question #7
+Question:	7.第二次世界大战后，美苏两国逐渐走向政治、经济、军事领域的全面对抗。苏联在1949年成立经济互助委员会，协调和促进社会主义阵营各成员国的经济发展。此举主要针对的是
+Candidates:	A.杜鲁门主义 B.马歇尔计划 C.北约组织 D.德意志联邦共和国
+Candidate Type:	0
+Candidates Segment:	
+杜鲁门主义 n 
+马歇尔计划 n 
+北约 组织 nt n 
+德 意志 联邦 共和国 b n n n 
+Type:	5
+Materials:	7.第二次世界大战后，美苏两国逐渐走向政治、经济、军事领域的全面对抗。苏联在1949年成立经济互助委员会，协调和促进社会主义阵营各成员国的经济发展。
+QuestionStem:	此举主要针对的是
+Original Material:	
+
+Question #8
+Question:	8.四川省博物馆藏有一块文字残缺的《九域守令图》石碑，其中一段碑文是：“至于□国，天下分而为七。□并四海，变易古制，始为□县，更□、□分裂，至□灭陈，天下方合为一。” “□”处缺失的文字应该是
+Candidates:	A.周 B.秦 C.汉 D.唐
+Candidate Type:	0
+Candidates Segment:	
+周 nr1 
+秦 tg 
+汉 tg 
+唐 tg 
+Type:	0
+Materials:	8.四川省博物馆藏有一块文字残缺的《九域守令图》石碑，其中一段碑文是：“至于□国，天下分而为七。□并四海，变易古制，始为□县，更□、□分裂，至□灭陈，天下方合为一。”
+QuestionStem:	 “□”处缺失的文字应该是
+Original Material:	“至于□国，天下分而为七。□并四海，变易古制，始为□县，更□、□分裂，至□灭陈，天下方合为一。” “□” 
+
+Question #9
+Question:	9.1985年，一艘荷兰东印度公司的沉船被发现，船上载有景德镇生产的青花瓷。该船沉没的时间最早应为
+Candidates:	A.北宋中期 B.元末明初 C.明末清初 D.鸦片战争时期
+Candidate Type:	0
+Candidates Segment:	
+北宋 中期 t f 
+元 末 明 初 q f ag ng 
+明末清初 t 
+鸦片战争 时期 nz n 
+Type:	5
+Materials:	9.1985年，一艘荷兰东印度公司的沉船被发现，船上载有景德镇生产的青花瓷。
+QuestionStem:	该船沉没的时间最早应为
+Original Material:	
+
+Question #10
+Question:	10.一位美国学者指出，第二次鸦片战争期间，美国只是“给予联军以道义上的支持和合作”，却在战后获得了很多权益。其中一项权益是
+Candidates:	A.获得军费赔偿 B.进驻北京使馆区（界） C.在华开设工厂 D.在沿江口岸自由航行
+Candidate Type:	2
+Candidates Segment:	
+获得 军费 赔偿 v n vn 
+进驻 北京使馆区 （ 界 ） v n wkz n wky 
+在 华 开设 工厂 p b v n 
+在 沿江 口岸 自由 航行 p n n ad vi 
+Type:	5
+Materials:	10.一位美国学者指出，第二次鸦片战争期间，美国只是“给予联军以道义上的支持和合作”，却在战后获得了很多权益。
+QuestionStem:	其中一项权益是
+Original Material:	“给予联军以道义上的支持和合作” 
+
+Question #11
+Question:	11.1893年，有位官员上奏朝廷说：“近来体察沿海各口商务情形，洋纱一项进口日多，较洋布行销尤广。江、皖、川、楚等省，或有难销洋布之区，更无不用洋纱之地。”由此可以得出的结论是
+Candidates:	A.洋纱洋布主要在通商口岸使用 B.进口洋布在中国销售市场萎缩 C.长江流域传统织布业逐渐消失 D.民族织布业大量使用进口洋纱
+Candidate Type:	2
+Candidates Segment:	
+洋纱 洋布 主要 在 通商口岸 使用 n n d p n v 
+进口 洋布 在 中国 销售 市场 萎缩 v n p ns vn n vi 
+长江流域 传统 织布 业 逐渐 消失 n n vi ng d vi 
+民族 织布 业 大量 使用 进口 洋纱 n vi ng m v vn n 
+Type:	5
+Materials:	11.1893年，有位官员上奏朝廷说：“近来体察沿海各口商务情形，洋纱一项进口日多，较洋布行销尤广。江、皖、川、楚等省，或有难销洋布之区，更无不用洋纱之地。”
+QuestionStem:	由此可以得出的结论是
+Original Material:	“近来体察沿海各口商务情形，洋纱一项进口日多，较洋布行销尤广。江、皖、川、楚等省，或有难销洋布之区，更无不用洋纱之地。” 
+
+Question #12
+Question:	12.中国共产党曾提出“赞助建立全中国统一的民主共和国”。当“全中国统一的民主共和国建立之时，苏维埃区域即可成为全中国统一的民主共和国的一个组成部分，苏区人民的代表，将参加全中国的国会，并在苏区实行与全中国一样的民主制度。”中国共产党提出这一主张有利于
+Candidates:	A.推动国民革命不断深入 B.创立苏维埃革命根据地 C.建立抗日民族统一战线 D.夺取解放战争最后胜利
+Candidate Type:	2
+Candidates Segment:	
+推动 国民革命 不断 深入 v n d v 
+创立 苏维埃 革命根据地 v nsf n 
+建立 抗日民族统一战线 v n 
+夺取 解放战争 最后胜利 v nz n 
+Type:	5
+Materials:	12.中国共产党曾提出“赞助建立全中国统一的民主共和国”。当“全中国统一的民主共和国建立之时，苏维埃区域即可成为全中国统一的民主共和国的一个组成部分，苏区人民的代表，将参加全中国的国会，并在苏区实行与全中国一样的民主制度。”
+QuestionStem:	中国共产党提出这一主张有利于
+Original Material:	“全中国统一的民主共和国建立之时，苏维埃区域即可成为全中国统一的民主共和国的一个组成部分，苏区人民的代表，将参加全中国的国会，并在苏区实行与全中国一样的民主制度。” “赞助建立全中国统一的民主共和国” 
+
+Question #13
+Question:	13.秦汉至明代，商人长期处于社会底层，一个重要原因是统治阶层认为商人
+Candidates:	A.不事生产 B.不尊儒术 C.不敬宗族 D.不纳租税
+Candidate Type:	2
+Candidates Segment:	
+不事 生产 n vn 
+不 尊 儒术 d vg n 
+不敬 宗族 n n 
+不 纳 租税 d v n 
+Type:	5
+Materials:	13.秦汉至明代，商人长期处于社会底层，
+QuestionStem:	一个重要原因是统治阶层认为商人
+Original Material:	
+
+Question #14
+Question:	14.下列各项中，中外名著创作于同一世纪的是
+Candidates:	A.顾炎武《天下郡国利病书》与洛克《政府论》 B.郭守敬《授时历》与牛顿《自然哲学的数学原理》 C.曹雪芹《红楼梦》与薄伽丘《十日谈》 D.关汉卿《窦娥冤》与莎士比亚《哈姆雷特》
+Candidate Type:	1
+Candidates Segment:	
+顾炎武 《 天下郡国利病书 》 与 洛克 《 政府论 》 nr wkz n wky p nrf wkz n wky 
+郭守敬 《 授时历 》 与 牛顿 《 自然哲学 的 数学原理 》 nr wkz n wky p nrf wkz n ude1 n wky 
+曹雪芹 《 红楼梦 》 与 薄伽丘 《 十日谈 》 nr wkz nz wky p nrf wkz n wky 
+关汉卿 《 窦娥冤 》 与 莎士比亚 《 哈姆雷特 》 nr wkz n wky p nrf wkz nrf wky 
+Type:	2
+Materials:	14.下列各项中，
+QuestionStem:	中外名著创作于同一世纪的是
+Original Material:	
+
+Question #15
+Question:	15.有西方学者在分析第二次鸦片战争爆发原因时说：“欧洲人渴望中国做出更大的让步以实现其贸易扩张。”若对此进行补充，下列选项正确的是
+Candidates:	A.西方国家希望通过“最惠国待遇”获得更多权益 B.西方国家想借“修约”名医攫取更多的在华利益 C.清朝政府没有遵守《南京条约》各项条款的规定 D.总理衙门拒绝了西方提出的公使进驻北京的要求
+Candidate Type:	2
+Candidates Segment:	
+西方国家 希望 通过 “ 最惠国待遇 ” 获得 更多 权益 n v p wyz n wyy v n n 
+西方国家 想 借 “ 修 约 ” 名医 攫取 更多 的 在 华 利益 n v v wyz v d wyy n v n ude1 p b n 
+清朝 政府 没有 遵守 《 南京条约 》 各项 条款 的 规定 t n d v wkz n wky r n ude1 n 
+总理 衙门 拒绝 了 西方 提出 的 公使 进驻 北京 的 要求 n n v ule s v ude1 n v ns ude1 n 
+Type:	5
+Materials:	15.有西方学者在分析第二次鸦片战争爆发原因时说：“欧洲人渴望中国做出更大的让步以实现其贸易扩张。”
+QuestionStem:	若对此进行补充，下列选项正确的是
+Original Material:	“欧洲人渴望中国做出更大的让步以实现其贸易扩张。” 
+
+Question #16
+Question:	16.晚清重臣端方上奏朝廷称：要消灭革命党人，“唯有于政治上导以新希望”。他所指的“新希望”是
+Candidates:	A.利用义和团 B.颁布明定国是诏 C.预备立宪 D.南北和谈
+Candidate Type:	2
+Candidates Segment:	
+利用 义和团 v nz 
+颁布 明定国是 诏 v n ng 
+预备立宪 n 
+南北和谈 n 
+Type:	5
+Materials:	16.晚清重臣端方上奏朝廷称：要消灭革命党人，“唯有于政治上导以新希望”。
+QuestionStem:	他所指的“新希望”是
+Original Material:	“唯有于政治上导以新希望” “新希望” 
+
+Question #17
+Question:	17.南昌起义标志着中国共产党创建人民军队的开始，1933年7月，中华苏维埃临时中央政府批准，将每年8月1日定为
+Candidates:	A.国民革命军军人节 B.中国工农红军成立纪念日 C.中华苏维埃共和国成立纪念日 D.中国人民解放军建军节
+Candidate Type:	2
+Candidates Segment:	
+国民革命军 军人 节 n n n 
+中国工农红军 成立 纪念日 n vi n 
+中华苏维埃共和国 成立 纪念日 n vi n 
+中国人民解放军 建军节 nt t 
+Type:	5
+Materials:	17.南昌起义标志着中国共产党创建人民军队的开始，1933年7月，中华苏维埃临时中央政府批准，
+QuestionStem:	将每年8月1日定为
+Original Material:	
+
+Question #18
+Question:	18.英国“光荣革命”后的一系列法令，规定了国王不得违反某些法规，但对国王可以行使的权力却未明确规定。综合所学，国王仍保留的权力是
+Candidates:	A.筹集税款 B.干预立法 C.招募军队 D.任命大臣
+Candidate Type:	2
+Candidates Segment:	
+筹集 税款 v n 
+干预 立法 v vi 
+招募 军队 v n 
+任命 大臣 v n 
+Type:	5
+Materials:	18.英国“光荣革命”后的一系列法令，规定了国王不得违反某些法规，但对国王可以行使的权力却未明确规定。
+QuestionStem:	综合所学，国王仍保留的权力是
+Original Material:	“光荣革命” 
+
+Question #19
+Question:	19.中国古代常常通过分割和削弱相权来加强皇权。下列表述准确的是
+Candidates:	A.西汉通过削弱诸侯王势力分化相权 B.北魏实行三长制分割丞相得行政权 C.宋代设立三司使来分割丞相的财权 D.清设军机处消除了皇权与相权矛盾
+Candidate Type:	2
+Candidates Segment:	
+西汉 通过 削弱 诸侯王 势力 分化 相 权 t p v n n vi d n 
+北魏 实行 三长制 分割 丞相 得 行政权 n v n v n ude3 n 
+宋代 设立 三司使 来 分割 丞相 的 财权 t v n vf v n ude1 n 
+清 设 军机处 消除 了 皇权 与 相 权 矛盾 tg v n v ule n cc d n an 
+Type:	5
+Materials:	19.中国古代常常通过分割和削弱相权来加强皇权。
+QuestionStem:	下列表述准确的是
+Original Material:	
+
+Question #20
+Question:	20.文庙是中国古代官方兴建的祭祀孔子的场所，产生于唐代，宋代逐渐在中原、江南的城市中大量兴建，元代在贵州、云南，清代在新疆、东北等地也相继出现。这一现象表明
+Candidates:	A.兴建文庙是加强专制统治的手段 B.唐代是官方儒学教育的兴起阶段 C.文庙的兴修导致了程朱理学的产生 D.文庙的修建是城市经济发展的需要
+Candidate Type:	2
+Candidates Segment:	
+兴 建文 庙 是 加强 专制 统治 的 手段 v t n vshi v n vn ude1 n 
+唐代 是 官方 儒学 教育 的 兴起 阶段 t vshi n n vn ude1 vn n 
+文庙 的 兴修 导致 了 程朱理学 的 产生 n ude1 v v ule n ude1 vn 
+文庙 的 修建 是 城市经济 发展 的 需要 n ude1 vn vshi n vn ude1 n 
+Type:	5
+Materials:	20.文庙是中国古代官方兴建的祭祀孔子的场所，产生于唐代，宋代逐渐在中原、江南的城市中大量兴建，元代在贵州、云南，清代在新疆、东北等地也相继出现。
+QuestionStem:	这一现象表明
+Original Material:	
+
+Question #21
+Question:	21.明末清初思想家黄宗羲的《明夷待访录》在清代被列为禁书，其主要原因是该书
+Candidates:	A.将人性与天理对立起来 B.质疑孔子的权威性 C.主张儒、佛、道三教合一 D.抨击君主专制制度
+Candidate Type:	2
+Candidates Segment:	
+将 人性 与 天理 对立 起来 p n cc n vi vf 
+质疑 孔子 的 权威性 vi nr ude1 n 
+主张 儒 、 佛 、 道 三教合一 v ng wn n wn v n 
+抨击 君主专制制度 v n 
+Type:	5
+Materials:	21.明末清初思想家黄宗羲的《明夷待访录》在清代被列为禁书，
+QuestionStem:	其主要原因是该书
+Original Material:	
+
+Question #22
+Question:	22.“九州缩地凭挥翰，四海披图当泛槎（木筏）”。这是近代诗人张维屏对一部著述的称赞。这部著述是
+Candidates:	A.《海国图志》 B.《资政新篇》 C.《变法通议》 D.《孔子改制考》
+Candidate Type:	0
+Candidates Segment:	
+《 海国图志 》 wkz n wky 
+《 资政新篇 》 wkz n wky 
+《 变法通议 》 wkz n wky 
+《 孔子改制考 》 wkz n wky 
+Type:	5
+Materials:	22.“九州缩地凭挥翰，四海披图当泛槎（木筏）”。这是近代诗人张维屏对一部著述的称赞。
+QuestionStem:	这部著述是
+Original Material:	“九州缩地凭挥翰，四海披图当泛槎（木筏）” 
+
+Question #23
+Question:	23.1923年《晨报》公布了一次社会调查，其中两个问项的统计数据如下：“你欢迎资本主义吗？”欢迎者占27%，不欢迎者占73%；“你赞成社会主义么？”赞成者占76%，不赞成者占24%。这一数据反映出被调查人群的多数
+Candidates:	A.欢迎国民革命军北伐 B.主张选择资本阶级民主道路 C.渴望公正公平的社会制度 D.赞同斯大林模式的社会主义
+Candidate Type:	2
+Candidates Segment:	
+欢迎 国民革命军 北伐 v n nz 
+主张 选择 资本 阶级 民主 道路 n vn n n an n 
+渴望 公正 公平 的 社会制度 v a a ude1 nl 
+赞同 斯大林模式 的 社会主义 v n ude1 n 
+Type:	5
+Materials:	23.1923年《晨报》公布了一次社会调查，其中两个问项的统计数据如下：“你欢迎资本主义吗？”欢迎者占27%，不欢迎者占73%；“你赞成社会主义么？”
+QuestionStem:	赞成者占76%，不赞成者占24%。这一数据反映出被调查人群的多数
+Original Material:	“你欢迎资本主义吗？” “你赞成社会主义么？” 
+
+Question #24
+Question:	24.某位古希腊哲学家首次让哲学“成为探究生活和道德、善与恶所必需”的学问。这位哲学家是
+Candidates:	A.普罗泰格拉（普罗塔格拉） B.苏格拉底 C.柏拉图 D.亚里士多德
+Candidate Type:	0
+Candidates Segment:	
+普罗泰格拉 （ 普罗塔格拉 ） nrf wkz nrf wky 
+苏格拉底 nrf 
+柏拉图 nrf 
+亚里士多德 nrf 
+Type:	5
+Materials:	24.某位古希腊哲学家首次让哲学“成为探究生活和道德、善与恶所必需”的学问。
+QuestionStem:	这位哲学家是
+Original Material:	“成为探究生活和道德、善与恶所必需” 
+
+Question #25
+Question:	25.19世纪上半叶英国著名诗人华兹华斯对当时社会强烈不满，却又否定文学反映现实的社会作用，他强调作家的主观想象力，认为诗歌应该是人的强烈情感的自然流露。华兹华斯的作品风格应属于
+Candidates:	A.古典主义 B.浪漫主义 C.现实主义 D.现代主义
+Candidate Type:	0
+Candidates Segment:	
+古典主义 n 
+浪漫主义 n 
+现实主义 n 
+现代主义 n 
+Type:	5
+Materials:	25.19世纪上半叶英国著名诗人华兹华斯对当时社会强烈不满，却又否定文学反映现实的社会作用，他强调作家的主观想象力，认为诗歌应该是人的强烈情感的自然流露。
+QuestionStem:	华兹华斯的作品风格应属于
+Original Material:	
+
+Question #26
+Question:	26.有人认为，中国古代君主专制理论由先秦法家奠定，经汉朝儒生发展而成。这两个阶段的代表人物分别是
+Candidates:	A.荀子、董仲舒 B.荀子、孟子 C.商鞅、孟子 D.韩非子、董仲舒
+Candidate Type:	1
+Candidates Segment:	
+荀子 、 董仲舒 nr wn nr 
+荀子 、 孟子 nr wn nr 
+商鞅 、 孟子 nr wn nr 
+韩非 子 、 董仲舒 nr ng wn nr 
+Type:	5
+Materials:	26.有人认为，中国古代君主专制理论由先秦法家奠定，经汉朝儒生发展而成。
+QuestionStem:	这两个阶段的代表人物分别是
+Original Material:	
+
+Question #27
+Question:	27.元代《富春山居图》残卷分藏于海峡两岸。2010年初，两岸均有意联合展出该作品。下列作品与《富春山居图》同属于一个朝代的是
+Candidates:	A.顾恺之《洛神赋图》 B.吴道子《送子天王图》 C.王祯《农书》 D.李贽《焚书》
+Candidate Type:	0
+Candidates Segment:	
+顾恺之 《 洛神赋图 》 n wkz n wky 
+吴道子 《 送子天王图 》 nr wkz n wky 
+王祯 《 农书 》 nr2 wkz n wky 
+李贽 《 焚书 》 n wkz n wky 
+Type:	2
+Materials:	27.元代《富春山居图》残卷分藏于海峡两岸。2010年初，两岸均有意联合展出该作品。
+QuestionStem:	下列作品与《富春山居图》同属于一个朝代的是
+Original Material:	
+
+Question #28
+Question:	28.“君为主，则必尧舜之君在上，而后可久安长治；民为主，则法制多纷更，心志难专一。究其极，不无流弊。惟君民共治，上下相通，民隐得以上达，君惠亦得以下逮”。根据材料和所学，判断这段文字的作者是
+Candidates:	A.魏源 B.王韬 C.宋教仁 D.胡适
+Candidate Type:	0
+Candidates Segment:	
+魏源 nr 
+王韬 nr 
+宋教仁 n 
+胡适 nr 
+Type:	5
+Materials:	28.“君为主，则必尧舜之君在上，而后可久安长治；民为主，则法制多纷更，心志难专一。究其极，不无流弊。惟君民共治，上下相通，民隐得以上达，君惠亦得以下逮”。
+QuestionStem:	根据材料和所学，判断这段文字的作者是
+Original Material:	“君为主，则必尧舜之君在上，而后可久安长治；民为主，则法制多纷更，心志难专一。究其极，不无流弊。惟君民共治，上下相通，民隐得以上达，君惠亦得以下逮” 
+
+Question #29
+Question:	29.1903年有人指出：“选官之祈以神，断案之祈以神……以重要家国大事而轻付虚空无凭，泥塑木雕之一掷，迂愚如斯。”这反映作者
+Candidates:	A.抨击迷信思想 B.痛斥君主专制 C.批判宗法制度 D.回击复古逆流
+Candidate Type:	2
+Candidates Segment:	
+抨击 迷信 思想 v vn n 
+痛斥 君主专制 v nl 
+批判 宗法制度 v n 
+回击 复古 逆流 v vi n 
+Type:	5
+Materials:	29.1903年有人指出：“选官之祈以神，断案之祈以神……以重要家国大事而轻付虚空无凭，泥塑木雕之一掷，迂愚如斯。”
+QuestionStem:	这反映作者
+Original Material:	“选官之祈以神，断案之祈以神……以重要家国大事而轻付虚空无凭，泥塑木雕之一掷，迂愚如斯。” 
+
+Question #30
+Question:	30.民族区域自治制度是新中国的重要政治制度。在我国五个民族自治区中，最早和最晚建立的是
+Candidates:	A.内蒙古自治区、西藏自治区 B.内蒙古自治区、宁夏回族自治区 C.新疆维吾尔自治区、宁夏回族自治区 D.广西壮族自治区、西藏自治区
+Candidate Type:	1
+Candidates Segment:	
+内蒙古 自治区 、 西藏 自治区 ns n wn ns n 
+内蒙古 自治区 、 宁夏回族自治区 ns n wn ns 
+新疆维吾尔自治区 、 宁夏回族自治区 ns wn ns 
+广西壮族自治区 、 西藏 自治区 ns wn ns n 
+Type:	5
+Materials:	30.民族区域自治制度是新中国的重要政治制度。
+QuestionStem:	在我国五个民族自治区中，最早和最晚建立的是
+Original Material:	
+
+Question #31
+Question:	31.英国学者罗素在论述一位古希腊哲学家时说，他的一个重要思想是乌托邦，“它是一长串的乌托邦中做早的一个”。这位古希腊哲学家的另一个重要思想是
+Candidates:	A.人是万物的尺度 B.理念论 C.逻辑三段论 D.美德即知识
+Candidate Type:	2
+Candidates Segment:	
+人 是 万物 的 尺度 n vshi n ude1 n 
+理念 论 n v 
+逻辑 三段论 n n 
+美德 即 知识 n v n 
+Type:	5
+Materials:	31.英国学者罗素在论述一位古希腊哲学家时说，他的一个重要思想是乌托邦，“它是一长串的乌托邦中做早的一个”。
+QuestionStem:	这位古希腊哲学家的另一个重要思想是
+Original Material:	“它是一长串的乌托邦中做早的一个” 
+
+Question #32
+Question:	32.17世纪英国革命期间产生了一个意外的局面，革命因反抗一个人的专制开始，却造成了另一个人的独裁。这里的“一个人”和“另一个人”分别是指
+Candidates:	A.詹姆士一世、克伦威尔 B.查理一世、克伦威尔 C.查理一世、詹姆士一世 D.查理二世、詹姆士二世
+Candidate Type:	1
+Candidates Segment:	
+詹姆士一世 、 克伦威尔 n wn nrf 
+查理一世 、 克伦威尔 n wn nrf 
+查理一世 、 詹姆士一世 n wn n 
+查理二世 、 詹姆士 二世 n wn nrf n 
+Type:	5
+Materials:	32.17世纪英国革命期间产生了一个意外的局面，革命因反抗一个人的专制开始，却造成了另一个人的独裁。
+QuestionStem:	这里的“一个人”和“另一个人”分别是指
+Original Material:	“另一个人” “一个人” 
+
+Question #33
+Question:	33.1971年，苏联政府在关于五年计划的报告中说：“商品货币关系在我国具有新的、社会主义的内容。当然，我们要批驳主张用市场调节作用取代国家集中计划的主导作用的各种错误观点。”这表明苏联政府试图
+Candidates:	A.废除对企业的指令性计 B.由市场决定产品价格 C.鼓励私营企业发展 D.减少对企业的行政干预
+Candidate Type:	2
+Candidates Segment:	
+废除 对 企业 的 指令性 计 v p n ude1 n vi 
+由 市场 决定 产品 价格 p n v n n 
+鼓励 私营企业 发展 v n vn 
+减少 对 企业 的 行政干预 v p n ude1 n 
+Type:	5
+Materials:	33.1971年，苏联政府在关于五年计划的报告中说：“商品货币关系在我国具有新的、社会主义的内容。当然，我们要批驳主张用市场调节作用取代国家集中计划的主导作用的各种错误观点。”
+QuestionStem:	这表明苏联政府试图
+Original Material:	“商品货币关系在我国具有新的、社会主义的内容。当然，我们要批驳主张用市场调节作用取代国家集中计划的主导作用的各种错误观点。” 
+
+Question #34
+Question:	34.为解决与匈奴之间的长期冲突，两汉时期中央 政府作出了多种努力，其中加强了中原地区与西域经济文化交流的是
+Candidates:	A.张骞“凿空” B.卫青远征 C.昭君出塞 D.甘英出使
+Candidate Type:	2
+Candidates Segment:	
+张骞 “ 凿空 ” nr wyz v wyy 
+卫青远征 n 
+昭君出塞 n 
+甘英 出使 nr v 
+Type:	5
+Materials:	34.为解决与匈奴之间的长期冲突，两汉时期中央 政府作出了多种努力，
+QuestionStem:	其中加强了中原地区与西域经济文化交流的是
+Original Material:	
+
+Question #35
+Question:	35.1862年，京师同文馆设立。该馆先后开设外语、化学、物理、各国史略、航海测算、富国策、万国公法等课程。据此判断，同文馆
+Candidates:	A.标志着西学东渐进程开始 B.致力于“变科举”“改官制” C.为洋务运动培养新式人才 D.旨在宣传“德先生”“赛先生”
+Candidate Type:	2
+Candidates Segment:	
+标志 着 西学东渐 进程 开始 n uzhe n n v 
+致力 于 “ 变 科举 ” “ 改 官制 ” v p wyz v n wyy wyz v n wyy 
+为 洋务运动 培养 新式 人才 p n v a n 
+旨在 宣传 “ 德先生 ” “ 赛先生 ” v v wyz n wyy wyz n wyy 
+Type:	5
+Materials:	35.1862年，京师同文馆设立。该馆先后开设外语、化学、物理、各国史略、航海测算、富国策、万国公法等课程。
+QuestionStem:	据此判断，同文馆
+Original Material:	
+
+Question #36
+Question:	36.下列各项中符合早期维新派“商战”的思想的是
+Candidates:	A.“自强直属，在于练兵” B.“十万之富豪，则胜于有百万之劲卒” C.“师夷智以造炮制船，尤可期永远之利” D.“改良社会经济组织，使人民有生之乐”
+Candidate Type:	2
+Candidates Segment:	
+“ 自强 直属 ， 在于 练兵 ” wyz vi v wd v vi wyy 
+“ 十万 之 富豪 ， 则 胜 于 有 百万 之 劲卒 ” wyz n uzhi n wd c v p vyou n uzhi n wyy 
+“ 师 夷 智 以 造 炮制 船 ， 尤可 期 永远 之 利 ” wyz ng ag ng p v v n wd n qv d uzhi ng wyy 
+“ 改良 社会 经济组织 ， 使 人民 有生 之乐 ” wyz v n n wd v n n n wyy 
+Type:	5
+Materials:	
+QuestionStem:	36.下列各项中符合早期维新派“商战”的思想的是
+Original Material:	“商战” 
+
+Question #37
+Question:	37.2009年，人民海军在山东青岛举行建军六十周年阅兵。这里曾见证了第一次世界大战后作为战胜国的中国蒙受屈辱的历史，与此相关的国际文件是
+Candidates:	A.《辛丑条约》 B.《凡尔赛和约》 C.《开罗宣言》 D.《波茨坦公告》
+Candidate Type:	0
+Candidates Segment:	
+《 辛丑条约 》 wkz n wky 
+《 凡尔赛 和约 》 wkz nsf n wky 
+《 开罗宣言 》 wkz n wky 
+《 波茨坦公告 》 wkz n wky 
+Type:	5
+Materials:	这里曾见证了第一次世界大战后作为战胜国的中国蒙受屈辱的历史，
+QuestionStem:	37.2009年，人民海军在山东青岛举行建军六十周年阅兵。与此相关的国际文件是
+Original Material:	
+
+Question #38
+Question:	38.文艺复兴和启蒙运动为近代欧洲的发展奠定了思想基础，对二者的共同点表述正确的是
+Candidates:	A.反对宗教神权，强调三权分立 B.反对封建制度，倡导人民主权 C.反对蒙昧迷信，推崇人的理性 D.反对君主专制，主张君主立宪
+Candidate Type:	2
+Candidates Segment:	
+反对 宗教 神权 ， 强调 三权分立 v n n wd v n 
+反对 封建制度 ， 倡导 人民主权 v n wd v n 
+反对 蒙昧 迷信 ， 推崇 人 的 理性 v a vn wd v n ude1 n 
+反对 君主专制 ， 主张 君主立宪 v nl wd v nl 
+Type:	2
+Materials:	38.文艺复兴和启蒙运动为近代欧洲的发展奠定了思想基础，
+QuestionStem:	对二者的共同点表述正确的是
+Original Material:	
+
+Question #39
+Question:	39.君主专制，主张君主立宪在向近代社会转型的过程中，各国实行了不同的土地政策，其中属于法国的是
+Candidates:	A.通过立法确立小农土地所有制 B.允许农奴通过赎买获得“份地” C.圈占土地建立资本主义农牧场 D.承认土地私有，实行地税改革
+Candidate Type:	2
+Candidates Segment:	
+通过 立法 确立 小农 土地所有制 p vi v n n 
+允许 农奴 通过 赎买 获得 “ 份地 ” v n p v v wyz n wyy 
+圈占 土地 建立 资本主义 农牧 场 n n v n n qv 
+承认 土地 私有 ， 实行 地税 改革 v n vn wd v n vn 
+Type:	5
+Materials:	39.君主专制，主张君主立宪在向近代社会转型的过程中，各国实行了不同的土地政策，
+QuestionStem:	其中属于法国的是
+Original Material:	
+
+Question #40
+Question:	40.随着工业革命的推进，19世纪上半期英国出现的新的社会问题是
+Candidates:	A.清教徒受到迫害 B.童工现象开始出现 C.广大农民丧失土地 D.产业工人相对贫困
+Candidate Type:	2
+Candidates Segment:	
+清教徒 受到 迫害 n v vn 
+童工 现象 开始 出现 n n v v 
+广大 农民 丧失 土地 b n v n 
+产业工人 相对贫困 nl n 
+Type:	5
+Materials:	40.随着工业革命的推进，
+QuestionStem:	19世纪上半期英国出现的新的社会问题是
+Original Material:	
+
+Question #41
+Question:	41.著名学者汉斯?科恩认为，普鲁士19世纪60、70年代的胜利，“为1918年和1945年的失败打下了基础”。以下各项可以作为科恩论断依据的是
+Candidates:	A.德国继承了普鲁士的旧制度 B.德国结束了四分五裂的局面 C.俾斯麦宰相实行“铁血政策” D.德国推行海外殖民扩张政策
+Candidate Type:	2
+Candidates Segment:	
+德国 继承 了 普鲁士 的 旧 制度 nsf v ule n ude1 a n 
+德国 结束 了 四分五裂 的 局面 nsf v ule n ude1 n 
+俾斯麦 宰相 实行 “ 铁血政策 ” n n v wyz n wyy 
+德国 推行 海外 殖民扩张 政策 nsf v s n n 
+Type:	5
+Materials:	41.著名学者汉斯?科恩认为，普鲁士19世纪60、70年代的胜利，“为1918年和1945年的失败打下了基础”。
+QuestionStem:	以下各项可以作为科恩论断依据的是
+Original Material:	“为1918年和1945年的失败打下了基础” 
+
+Question #42
+Question:	58.清乾隆年间苏州《吴县永禁官吏占用钱江（杭州）会馆碑》记载 ：“商贾捐资，建设会馆，所以便往还而通贸易，或存货于斯，或客栖于斯，诚为集商经营交易时不可缺之所”。下列说法中错误的是：
+Candidates:	A.该碑文反映出苏杭之间的商贸联系 B.会馆为商人出资建造的地方商业中心 C.会馆为旅居异乡的同乡商人所组建 D.会馆为同一地域商人活动的重要场所
+Candidate Type:	2
+Candidates Segment:	
+该 碑文 反映 出 苏 杭 之间 的 商贸 联系 rz n v vf b b f ude1 n v 
+会馆 为 商人 出资 建造 的 地方 商业中心 n p n vi v ude1 n n 
+会馆 为 旅居 异乡 的 同乡 商人 所 组建 n p v n ude1 n n usuo v 
+会馆 为 同一 地域 商人 活动 的 重要 场所 n p n n n vn ude1 a n 
+Type:	4
+Materials:	58.清乾隆年间苏州《吴县永禁官吏占用钱江（杭州）会馆碑》记载 ：“商贾捐资，建设会馆，所以便往还而通贸易，或存货于斯，或客栖于斯，诚为集商经营交易时不可缺之所”。
+QuestionStem:	下列说法中错误的是：
+Original Material:	“商贾捐资，建设会馆，所以便往还而通贸易，或存货于斯，或客栖于斯，诚为集商经营交易时不可缺之所” 
+
+Question #43
+Question:	59.据地方志记载，民国时期某城市“旧式婚姻居十之七八，新式者不过十之二三”。对此理解错误的是
+Candidates:	A.旧式婚礼因为简便节约更为流行 B.城市尚且如此守旧，更不要说乡村 C.婚姻习俗的新旧变迁有一个过程 D.传统的婚姻观念仍为多数人所坚持
+Candidate Type:	2
+Candidates Segment:	
+旧式 婚礼 因为 简便 节约 更为 流行 b n c ad v d v 
+城市 尚且 如此 守旧 ， 更 不要说 乡村 n c rzv a wd d n n 
+婚姻 习俗 的 新 旧 变迁 有 一个 过程 n n ude1 a a vn vyou mq n 
+传统 的 婚姻 观念 仍 为 多数 人 所 坚持 n ude1 n n d v m n usuo v 
+Type:	4
+Materials:	59.据地方志记载，民国时期某城市“旧式婚姻居十之七八，新式者不过十之二三”。
+QuestionStem:	对此理解错误的是
+Original Material:	“旧式婚姻居十之七八，新式者不过十之二三” 
+
+Question #44
+Question:	60.古巴前领导人卡斯特罗称：“全球化是客观现实，它显不了在这个大家居住的星球上我们都是同一条船上的乘客。一小撮乘客居住在豪华的客舱，85%的乘客拥挤在不卫生的船舱里。很显然，这艘船上不公正的事太多了，它很难浮在水面上。它的航程是如此不合理和荒唐，以致它不可能抵达安全的港口。”这段材料无法揭示出
+Candidates:	A.全球化时代国家之间休戚相关 B.全球化造成利益分配不均 C.缺乏公正性的全球化难以为继 D.全球化的潮流应该被抵制
+Candidate Type:	2
+Candidates Segment:	
+全球化时代 国家 之间 休戚相关 n n f vl 
+全球化 造成 利益 分配 不均 v v n vn n 
+缺乏 公正性 的 全球化 难以为继 v n ude1 vn vl 
+全球化 的 潮流 应该 被 抵制 v ude1 n v pbei v 
+Type:	4
+Materials:	60.古巴前领导人卡斯特罗称：“全球化是客观现实，它显不了在这个大家居住的星球上我们都是同一条船上的乘客。一小撮乘客居住在豪华的客舱，85%的乘客拥挤在不卫生的船舱里。很显然，这艘船上不公正的事太多了，它很难浮在水面上。它的航程是如此不合理和荒唐，以致它不可能抵达安全的港口。”
+QuestionStem:	这段材料无法揭示出
+Original Material:	“全球化是客观现实，它显不了在这个大家居住的星球上我们都是同一条船上的乘客。一小撮乘客居住在豪华的客舱，85%的乘客拥挤在不卫生的船舱里。很显然，这艘船上不公正的事太多了，它很难浮在水面上。它的航程是如此不合理和荒唐，以致它不可能抵达安全的港口。” 
+
+Question #45
+Question:	60.1898年8月，清廷颁布上谕：“现当海禁洞开，强邻环伺，欲图商务流通，隐杜觊觎，惟有广开口岸之一法。”清廷的意图不包括
+Candidates:	A.收回通商口岸 B.发展民族经济 C.维护国家主权 D.挽救国家危亡
+Candidate Type:	2
+Candidates Segment:	
+收回 通商口岸 v n 
+发展 民族经济 v n 
+维护 国家主权 v n 
+挽救 国家 危亡 v n n 
+Type:	4
+Materials:	60.1898年8月，清廷颁布上谕：“现当海禁洞开，强邻环伺，欲图商务流通，隐杜觊觎，惟有广开口岸之一法。”
+QuestionStem:	清廷的意图不包括
+Original Material:	“现当海禁洞开，强邻环伺，欲图商务流通，隐杜觊觎，惟有广开口岸之一法。” 
+
+Question #46
+Question:	61.清雍正年间，军机处设在皇宫内，与皇帝日常生活办公地毗邻。军机大臣多从“亲臣重臣”中遴选，任命谕旨通常说，命某人“在军机大臣上行走”或“在军机大臣上学习行走”。材料中未能体现出
+Candidates:	A.在军机处办理要务易于保密 B.军机处官员便于皇帝宣召 C.军机处官员按才德标准遴选 D.军机大臣多为临时差遣性质
+Candidate Type:	2
+Candidates Segment:	
+在 军机处 办理 要务 易于 保密 p n v n vd vi 
+军机处 官员 便于 皇帝 宣召 n n v n nr2 
+军机处 官员 按 才 德 标准 遴选 n n p d b n v 
+军机大臣 多 为 临时 差遣 性质 n ad v d v n 
+Type:	4
+Materials:	61.清雍正年间，军机处设在皇宫内，与皇帝日常生活办公地毗邻。军机大臣多从“亲臣重臣”中遴选，任命谕旨通常说，命某人“在军机大臣上行走”或“在军机大臣上学习行走”。
+QuestionStem:	材料中未能体现出
+Original Material:	“亲臣重臣” “在军机大臣上学习行走” “在军机大臣上行走” 
+
+Question #47
+Question:	62.罗马法是留给人类的宝贵遗产。下列司法理念中，明显违背罗马法原则的是
+Candidates:	A.被告在被确认犯罪之前是无罪的 B.被告有权利在法庭上同原告对质 C.主要按照以往的习惯和判例进行判决 D.主要按照法律和法学家解释进行判决
+Candidate Type:	2
+Candidates Segment:	
+被告 在 被 确认 犯罪 之前 是 无罪 的 n p pbei v vn f vshi vi ude1 
+被告 有 权利 在 法庭上 同 原告 对质 n vyou n p n p n v 
+主要 按照 以往 的 习惯 和 判例 进行 判决 d p t ude1 n cc n vx vn 
+主要 按照 法律 和 法学家 解释 进行 判决 d p n cc n v vx vn 
+Type:	4
+Materials:	62.罗马法是留给人类的宝贵遗产。
+QuestionStem:	下列司法理念中，明显违背罗马法原则的是
+Original Material:	
+
+Question #48
+Question:	63.二战后，国际组织的发展进入新阶段，除建立几乎包括世界上所有国家的普遍性一般国际组织联合国外，区域性的国际组织也大量涌现。这一现象出现的原因不包括
+Candidates:	A.区域性经济发展不平衡加剧 B.大国强权政治主导着国际关系 C.民族主义政治诉求不断高涨 D.联合国政府调节机制效力不足
+Candidate Type:	2
+Candidates Segment:	
+区域性 经济发展 不平衡 加剧 n n n v 
+大国 强权政治 主导 着 国际关系 n nl n uzhe n 
+民族主义 政治 诉求 不断 高涨 n n n d a 
+联合国 政府 调节 机制 效力 不足 nt n vn n n an 
+Type:	4
+Materials:	63.二战后，国际组织的发展进入新阶段，除建立几乎包括世界上所有国家的普遍性一般国际组织联合国外，区域性的国际组织也大量涌现。
+QuestionStem:	这一现象出现的原因不包括
+Original Material:	
+
+Question #49
+Question:	64.史籍记载，东汉南阳樊氏“能治田，殖至三百顷。广起庐舍，高楼连阁，波陂灌注，竹木成林，溜须放牧，鱼赢梨果，檀棘桑麻，团门成市，兵弩器械，资至百万。”下列关于樊氏庄园的说法，错误的是
+Candidates:	A.庄园经济力量强大 B.自给自足程度很高 C.草市交易十分发达 D.生产经营活动广泛
+Candidate Type:	2
+Candidates Segment:	
+庄园经济 力量 强大 n n a 
+自给自足 程度 很 高 vl n d a 
+草市 交易 十分 发达 n vn d a 
+生产经营活动 广泛 n a 
+Type:	4
+Materials:	64.史籍记载，东汉南阳樊氏“能治田，殖至三百顷。广起庐舍，高楼连阁，波陂灌注，竹木成林，溜须放牧，鱼赢梨果，檀棘桑麻，团门成市，兵弩器械，资至百万。”
+QuestionStem:	下列关于樊氏庄园的说法，错误的是
+Original Material:	“能治田，殖至三百顷。广起庐舍，高楼连阁，波陂灌注，竹木成林，溜须放牧，鱼赢梨果，檀棘桑麻，团门成市，兵弩器械，资至百万。” 
+
+Question #50
+Question:	65.某同学在学习《历史》必修二后，为巩固所学知识，概括里根政府时期的经济发展状况，作诗一首。后发现其中有一句不妥，它是
+Candidates:	A.亦滞亦胀凯失灵（凯，指凯恩斯主义） B.紧缩货币出新招 C.减税减支零通胀 D.又陷“四高”难逍遥（“四高”，指高赤字、高国债、高利率和高贸易逆差）
+Candidate Type:	2
+Candidates Segment:	
+亦 滞 亦 胀 凯 失灵 （ 凯 ， 指 凯恩斯主义 ） d vg d a ng vi wkz ng wd v n wky 
+紧缩 货币 出新 招 v n n n 
+减税 减 支 零 通胀 vi v q m v 
+又 陷 “ 四 高 ” 难 逍遥 （ “ 四 高 ” ， 指 高 赤字 、 高 国债 、 高 利率 和 高 贸易逆差 ） d vi wyz m a wyy a a wkz wyz m a wyy wd v a n wn a n wn a n cc a n wky 
+Type:	4
+Materials:	65.某同学在学习《历史》必修二后，为巩固所学知识，概括里根政府时期的经济发展状况，作诗一首。
+QuestionStem:	后发现其中有一句不妥，它是
+Original Material:	
+
+Question #51
+Question:	66.下列关于李贽思想与文艺复兴时期人文主义思想的表述，不正确的是
+Candidates:	A.都具有思想启蒙意义 B.都是商品经济发展的产物 C.都体现了新兴资产阶级的愿望 D.都宣扬了个性自由和解放
+Candidate Type:	2
+Candidates Segment:	
+都 具有 思想 启蒙 意义 d v n vn n 
+都 是 商品 经济发展 的 产物 d vshi n n ude1 n 
+都 体现 了 新兴资产阶级 的 愿望 d v ule n ude1 n 
+都 宣扬 了 个性 自由 和 解放 d v ule n an cc vn 
+Type:	4
+Materials:	66.下列关于李贽思想与文艺复兴时期人文主义思想的表述，
+QuestionStem:	不正确的是
+Original Material:	
+
+Question #52
+Question:	67.1927年中国一部中学历史教科书写道：“假使中国是一个民治之国，      图2  而又适有一个有才干有计谋的政界人物，在民国四年的夏间，来把反抗日本作为他的主要政策，一般的人民，还有不欢迎他为元首的吗？在同样情形之下，伯里克利此时乃做了雅典的领袖。”这里的“同样情形”不包括
+Candidates:	A.雅典公民普遍好战 B.伯里克利才能杰出 C.雅典实行民主政治 D.雅典面临外邦威胁
+Candidate Type:	2
+Candidates Segment:	
+雅典 公民 普遍 好战 ns n ad n 
+伯里克利 才能 杰出 nrf n a 
+雅典 实行 民主政治 ns v n 
+雅典 面临 外邦 威胁 ns v n v 
+Type:	4
+Materials:	67.1927年中国一部中学历史教科书写道：“假使中国是一个民治之国，      图2  而又适有一个有才干有计谋的政界人物，在民国四年的夏间，来把反抗日本作为他的主要政策，一般的人民，还有不欢迎他为元首的吗？在同样情形之下，伯里克利此时乃做了雅典的领袖。”
+QuestionStem:	这里的“同样情形”不包括
+Original Material:	“同样情形” “假使中国是一个民治之国，      图2  而又适有一个有才干有计谋的政界人物，在民国四年的夏间，来把反抗日本作为他的主要政策，一般的人民，还有不欢迎他为元首的吗？在同样情形之下，伯里克利此时乃做了雅典的领袖。” 
+
+Question #53
+Question:	68.贝多芬历经法国大革命前后欧洲社会剧变，给后人留下震撼人心的音乐史诗。对其《第三（英雄）交响曲》解读有误的是
+Candidates:	A.作品充满时代气息 B.作品有田园风光般的抒情 C.作品含蓄地献给一位无名英雄 D.作品具有英雄史诗般的雄伟气势
+Candidate Type:	2
+Candidates Segment:	
+作品 充满 时代 气息 n v n n 
+作品 有 田园风光 般 的 抒情 n vyou n uyy ude1 vn 
+作品 含蓄 地 献给 一 位 无名英雄 n a ude2 v m q n 
+作品 具有 英雄史诗 般 的 雄伟 气势 n v n uyy ude1 a n 
+Type:	4
+Materials:	68.贝多芬历经法国大革命前后欧洲社会剧变，给后人留下震撼人心的音乐史诗。
+QuestionStem:	对其《第三（英雄）交响曲》解读有误的是
+Original Material:	
+
+Question #54
+Question:	69.唐文宗太和六年（832年），宰相王涯上奏：“商人乘马,前代所禁。近日得以恣其乘骑,雕鞍银鉴,装饰焕烂,从以童骑,骋以康庄，最为僭越,伏请切令禁断。” 一下对当时商人地位的判断，错误的是
+Candidates:	A.经济地位优越 B.政治地位低下 C.遭受全社会的鄙视 D.实际上没有自由民的平等地位
+Candidate Type:	2
+Candidates Segment:	
+经济 地位 优越 n n a 
+政治 地位 低下 n n a 
+遭受 全 社会 的 鄙视 v a n ude1 vn 
+实际上 没有 自由 民 的 平等 地位 d d a ng ude1 a n 
+Type:	4
+Materials:	69.唐文宗太和六年（832年），宰相王涯上奏：“商人乘马,前代所禁。近日得以恣其乘骑,雕鞍银鉴,装饰焕烂,从以童骑,骋以康庄，最为僭越,伏请切令禁断。”
+QuestionStem:	 一下对当时商人地位的判断，错误的是
+Original Material:	“商人乘马,前代所禁。近日得以恣其乘骑,雕鞍银鉴,装饰焕烂,从以童骑,骋以康庄，最为僭越,伏请切令禁断。” 
+
+Question #55
+Question:	70.音乐电视起源与美国。刚传入拉丁美洲时，当地的节目主持人把西班牙语和英语夹杂一起说，引起了“外国文化入侵”之类的批评。但是到20世纪90年代，人们注意到音乐电视使拉美国家之间就此更加关注，文化共享的程度也增加了。据此不能得出的结论是
+Candidates:	A.拉美和美国的现代化相互促进 B.科技的进步促进文化交流 C.殖民主义的历史影响依然存在 D.电视是影响较大的传播工具
+Candidate Type:	2
+Candidates Segment:	
+拉美 和 美国 的 现代化 相互 促进 n cc nsf ude1 vn d v 
+科技 的 进步 促进 文化交流 n ude1 vn v n 
+殖民主义 的 历史 影响 依然 存在 n ude1 n vn d v 
+电视 是 影响 较 大 的 传播 工具 n vshi v d a ude1 vn n 
+Type:	4
+Materials:	70.音乐电视起源与美国。刚传入拉丁美洲时，当地的节目主持人把西班牙语和英语夹杂一起说，引起了“外国文化入侵”之类的批评。但是到20世纪90年代，人们注意到音乐电视使拉美国家之间就此更加关注，文化共享的程度也增加了。
+QuestionStem:	据此不能得出的结论是
+Original Material:	“外国文化入侵” 
+
+Question #56
+Question:	71.根据美国1787年宪法，众议员名额按照各州人口比例分配，各州人口数“按自由人总数加上所有其他人口的五分之三予以确定”。这规定违背了《独立宣言》中提倡的
+Candidates:	A.主权在民原则 B.天赋人权原则 C.各州自治原则 D.各州平等原则
+Candidate Type:	2
+Candidates Segment:	
+主权在民 原则 n n 
+天赋 人权 原则 n n n 
+各 州 自治 原则 rz n vn n 
+各 州 平等原则 rz n n 
+Type:	4
+Materials:	71.根据美国1787年宪法，众议员名额按照各州人口比例分配，各州人口数“按自由人总数加上所有其他人口的五分之三予以确定”。
+QuestionStem:	这规定违背了《独立宣言》中提倡的
+Original Material:	“按自由人总数加上所有其他人口的五分之三予以确定” 
+
+Question #57
+Question:	72.纳赛尔被誉为“中东雄狮”。如果要给他写传记，下列史实中不能作为其生平事迹的是
+Candidates:	A.签署“戴维营协议” B.领导建立埃及共和国 C.将苏伊士运河收归国有 D.推动不结盟运动诞生
+Candidate Type:	2
+Candidates Segment:	
+签署 “ 戴维营协议 ” v wyz n wyy 
+领导 建立 埃及 共和国 n v nsf n 
+将 苏伊士运河 收 归 国有 p n v v vn 
+推动 不结盟运动 诞生 v n vi 
+Type:	4
+Materials:	如果要给他写传记，
+QuestionStem:	72.纳赛尔被誉为“中东雄狮”。下列史实中不能作为其生平事迹的是
+Original Material:	“中东雄狮” 
+
+Question #58
+Question:	73.乾隆以后，“关东每岁有商船二三千只至于上海”，“载豆、麦、杂粟，一岁三运以为常”。据此，判断有误的是
+Candidates:	A.商品经济繁荣 B.长途贩运发达 C.区域经济发展 D.抑商政策改变
+Candidate Type:	2
+Candidates Segment:	
+商品 经济 繁荣 n n an 
+长途 贩运 发达 b vn a 
+区域经济发展 n 
+抑 商 政策 改变 vg vg n v 
+Type:	4
+Materials:	73.乾隆以后，“关东每岁有商船二三千只至于上海”，“载豆、麦、杂粟，一岁三运以为常”。
+QuestionStem:	据此，判断有误的是
+Original Material:	“载豆、麦、杂粟，一岁三运以为常” “关东每岁有商船二三千只至于上海” 
+
+Question #59
+Question:	74.关汉卿在《关大王独会单刀会》中，描绘关于面对大江的滚滚波涛，仗刀临流。曲中唱到：“大江东去浪千叠……驾着这小舟一叶……可正是千丈虎狼穴……我觑这单刀会似赛村社”。对该作品理解有误的是
+Candidates:	A.显示关羽壮怀激烈的个性 B.借历史典故吊古扶今 C.严厉斥问颠倒黑白的世界 D.兼采宋词的豪放风格
+Candidate Type:	2
+Candidates Segment:	
+显示 关 羽 壮怀激烈 的 个性 v n q nl ude1 n 
+借 历史典故 吊 古 扶 今 p n v tg v tg 
+严厉 斥问 颠倒黑白的世界 ad n n 
+兼采 宋词 的 豪放 风格 n n ude1 a n 
+Type:	4
+Materials:	74.关汉卿在《关大王独会单刀会》中，描绘关于面对大江的滚滚波涛，仗刀临流。曲中唱到：“大江东去浪千叠……驾着这小舟一叶……可正是千丈虎狼穴……我觑这单刀会似赛村社”。
+QuestionStem:	对该作品理解有误的是
+Original Material:	“大江东去浪千叠……驾着这小舟一叶……可正是千丈虎狼穴……我觑这单刀会似赛村社” 
+
+Question #60
+Question:	75.景帝时，司马相如的赋没有引起天子注意。武帝时，“相如既奏大人之颂，天子大悦，飘飘有凌云之气，似游天地之间”，“言语侍从之臣……朝夕论思，日月献纳”。成帝时，奏御者千有余篇。由此，对赋的理解不正确的是
+Candidates:	A.契合时代的文化需求 B.为统治者“润色鸿业” C.宣扬道家的无为思想 D.为阅读者“铺陈气势”
+Candidate Type:	2
+Candidates Segment:	
+契合 时代 的 文化 需求 v n ude1 n n 
+为 统治者 “ 润色 鸿 业 ” p n wyz vi ag ng wyy 
+宣扬 道家 的 无为 思想 v n ude1 n n 
+为 阅读 者 “ 铺陈 气势 ” p v k wyz v n wyy 
+Type:	4
+Materials:	75.景帝时，司马相如的赋没有引起天子注意。武帝时，“相如既奏大人之颂，天子大悦，飘飘有凌云之气，似游天地之间”，“言语侍从之臣……朝夕论思，日月献纳”。成帝时，奏御者千有余篇。
+QuestionStem:	由此，对赋的理解不正确的是
+Original Material:	“相如既奏大人之颂，天子大悦，飘飘有凌云之气，似游天地之间” “言语侍从之臣……朝夕论思，日月献纳” 
+
+Question #61
+Question:	76.下列选项不能反映宗法制及其影响的是
+Candidates:	A.“封建亲戚，以藩屏周” B.“谱牒不立，则传久而失宗” C.“父死子继，兄终弟及” D.“内举不避亲，外举不避仇”
+Candidate Type:	2
+Candidates Segment:	
+“ 封建 亲戚 ， 以 藩屏 周 ” wyz a n wd p n nr1 wyy 
+“ 谱牒 不 立 ， 则 传 久 而 失 宗 ” wyz n d v wd c v ng cc v vg wyy 
+“ 父死子继 ， 兄终弟及 ” wyz n wd n wyy 
+“ 内举不避亲 ， 外举不避仇 ” wyz n wd n wyy 
+Type:	4
+Materials:	
+QuestionStem:	76.下列选项不能反映宗法制及其影响的是
+Original Material:	
+
+Question #62
+Question:	77.“丝绸之路”是古代沟通东西方文明的桥梁。下列说法不正确的是
+Candidates:	A.汉唐以来“海上丝绸之路”被称为“瓷路” B.罗马为中心的地中海地区称中国为“丝国” C.明清政府的严格管理限制了丝路商贸繁荣 D.15世纪以前的丝路贸易不具有全球化意义
+Candidate Type:	2
+Candidates Segment:	
+汉唐 以来 “ 海上丝绸之路 ” 被 称为 “ 瓷 路 ” t f wyz n wyy pbei v wyz ng n wyy 
+罗马 为 中心 的 地中海 地区 称 中国 为 “ 丝国 ” nsf p n ude1 nsf n v ns v wyz n wyy 
+明清 政府 的 严格管理 限制 了 丝路 商贸 繁荣 t n ude1 n v ule n n an 
+15 世纪 以前 的 丝路 贸易 不 具有 全球化 意义 m n f ude1 n vn d v vn n 
+Type:	4
+Materials:	77.“丝绸之路”是古代沟通东西方文明的桥梁。
+QuestionStem:	下列说法不正确的是
+Original Material:	“丝绸之路” 
+
+Question #63
+Question:	78.《十二铜表法》是古罗马历史上第一部成文法，关于该法的表述，错误的是
+Candidates:	A.它是古罗马习惯法的汇编 B.它限制了贵族的权力 C.它是当时罗马社会的写照 D.它不必属于罗马公民法
+Candidate Type:	2
+Candidates Segment:	
+它 是古 罗马 习惯法 的 汇编 rr n nsf n ude1 n 
+它 限制 了 贵族 的 权力 rr v ule n ude1 n 
+它 是 当时 罗马 社会 的 写照 rr vshi t nsf n ude1 n 
+它 不必 属于 罗马公民法 rr d v n 
+Type:	4
+Materials:	78.《十二铜表法》是古罗马历史上第一部成文法，关于该法的表述，
+QuestionStem:	错误的是
+Original Material:	
+
+Question #64
+Question:	79.哥白尼、牛顿和爱因斯坦被称为近代以来最伟大的科学家，其理论的共同之处是
+Candidates:	A.得到了科学实验的验证 B.改变了人类对自然世界的认识 C.推动了技术的重大突破 D.科学地概括出物质运动的定律
+Candidate Type:	2
+Candidates Segment:	
+得到 了 科学实验 的 验证 v ule n ude1 vn 
+改变 了 人类 对 自然世界 的 认识 v ule n p n ude1 n 
+推动 了 技术 的 重大 突破 v ule n ude1 a vn 
+科学 地 概括 出 物质运动 的 定律 n ude2 v vf n ude1 n 
+Type:	2
+Materials:	79.哥白尼、牛顿和爱因斯坦被称为近代以来最伟大的科学家，
+QuestionStem:	其理论的共同之处是
+Original Material:	
+
+Question #65
+Question:	80.公元前509年，罗马进入共和国时期，这一时间也可表述为
+Candidates:	A.公元前5世纪初 B.公元前5世纪末 C.公元前6世纪初 D.公元前6世纪末
+Candidate Type:	0
+Candidates Segment:	
+公元前 5 世纪 初 t m n f 
+公元前 5 世纪末 t m n 
+公元前 6 世纪 初 t m n f 
+公元前 6 世纪末 t m n 
+Type:	5
+Materials:	80.公元前509年，罗马进入共和国时期，
+QuestionStem:	这一时间也可表述为
+Original Material:	
+
+Question #66
+Question:	81.1917年7月，俄国临时政府下令向德军发起进攻，结果俄军损失惨重，同年9月，俄军最高总司令科尔尼洛夫发动反政府叛乱，派兵进逼彼得格勒；在布尔什维克党的组织下，首都几万名工人武装起来保卫首都并最终瓦解了叛乱军队。这些历史事件产生的共同结果是
+Candidates:	A.催生了工兵代表苏维埃 B.临时政府已日益陷入困境 C.为第一届人民政府成立创造条件 D.推动民主革命转入社会主义革命
+Candidate Type:	2
+Candidates Segment:	
+催生 了 工兵 代表 苏维埃 vi ule n n nz 
+临时政府 已 日益 陷入困境 n d d n 
+为 第一 届 人民 政府 成立 创造 条件 p m q n n vi v n 
+推动 民主革命 转入 社会主义 革命 v nl v n vn 
+Type:	2
+Materials:	81.1917年7月，俄国临时政府下令向德军发起进攻，结果俄军损失惨重，同年9月，俄军最高总司令科尔尼洛夫发动反政府叛乱，派兵进逼彼得格勒；在布尔什维克党的组织下，首都几万名工人武装起来保卫首都并最终瓦解了叛乱军队。
+QuestionStem:	这些历史事件产生的共同结果是
+Original Material:	
+
+Question #67
+Question:	82.《左传》日：“桀有昏德，鼎迁于商，载祀六百。商纣暴虐，鼎迁于周。”下列成语中的“鼎”与材料中的“鼎”含义相同的是
+Candidates:	A.人声鼎沸 B.鼎鼎有名 C.三足鼎立 D.问鼎中原
+Candidate Type:	2
+Candidates Segment:	
+人声鼎沸 vl 
+鼎鼎有名 n 
+三足鼎立 vl 
+问鼎中原 n 
+Type:	2
+Materials:	82.《左传》日：“桀有昏德，鼎迁于商，载祀六百。商纣暴虐，鼎迁于周。”
+QuestionStem:	下列成语中的“鼎”与材料中的“鼎”含义相同的是
+Original Material:	“鼎” “桀有昏德，鼎迁于商，载祀六百。商纣暴虐，鼎迁于周。” 
+
+Question #68
+Question:	83.有俄罗斯学者认为，中国20世纪80年代的改革属于新版的苏俄新经济政策。这一认识的依据是两者都
+Candidates:	A.处于相似的国内外经济环境 B.面临着处理计划与市场的关系问题 C.巩固了农村的集体所有制经济 D.促进了社会主义工业化
+Candidate Type:	2
+Candidates Segment:	
+处于 相似 的 国内外 经济环境 v a ude1 s n 
+面临 着 处理 计划与市场 的 关系 问题 v uzhe v n ude1 n n 
+巩固 了 农村 的 集体所有制 经济 v ule n ude1 n n 
+促进 了 社会主义工业化 v ule n 
+Type:	2
+Materials:	83.有俄罗斯学者认为，中国20世纪80年代的改革属于新版的苏俄新经济政策。
+QuestionStem:	这一认识的依据是两者都
+Original Material:	
+
+Question #69
+Question:	84.在1543年出版的《天体运行论》中，哥白尼提出太阳是宇宙的中心；在1859年出版的《物种起源》中，达尔文提出了生物进化理论。两种学说的共同意义是
+Candidates:	A.肯定了人的价值和尊严 B.推动了近代科学体系的形成 C.提供了观察世界的新视角 D.奠定了资产阶级革命的思想基础
+Candidate Type:	2
+Candidates Segment:	
+肯定 了 人的价值 和 尊严 v ule n cc n 
+推动 了 近代 科学 体系 的 形成 v ule t n n ude1 vn 
+提供 了 观察 世界 的 新 视角 v ule vn n ude1 a n 
+奠定 了 资产阶级革命 的 思想 基础 v ule n ude1 n n 
+Type:	2
+Materials:	84.在1543年出版的《天体运行论》中，哥白尼提出太阳是宇宙的中心；在1859年出版的《物种起源》中，达尔文提出了生物进化理论。
+QuestionStem:	两种学说的共同意义是
+Original Material:	
+
+Question #70
+Question:	85.1521年有教皇代表与马丁?路德辩论说：信仰无法安稳地奠基于《圣经》，因为“《圣经》就像软蜡一样，可以让每一个人随兴所至地扭或拉”。他们的主要分歧在于
+Candidates:	A.教会是否腐败　　　　　　　 B.信仰是否必要 C.信徒能否仅仅依靠信仰得救　 D.《圣经》能否作为信仰的基础
+Candidate Type:	2
+Candidates Segment:	
+教会 是否 腐败 n v an 
+信仰 是否 必要  n v a n 
+信徒 能否 仅仅 依靠 信仰 得救 n v d v n vi 
+《 圣经 》 能否 作为 信仰 的 基础  wkz n wky v p n ude1 n n 
+Type:	1
+Materials:	85.1521年有教皇代表与马丁?路德辩论说：信仰无法安稳地奠基于《圣经》，因为“《圣经》就像软蜡一样，可以让每一个人随兴所至地扭或拉”。
+QuestionStem:	他们的主要分歧在于
+Original Material:	“《圣经》就像软蜡一样，可以让每一个人随兴所至地扭或拉” 
+
+Question #71
+Question:	86.对于同一个历史事实，往往由于视角、史料的差异而产生不一样的解释。下列选项中， 由于新史料的发现而导致不同解释的是
+Candidates:	A.哥伦布到达美洲被称为“发现新大陆”，也被称为“文明的相遇” B.魏晋南北朝被称为“分裂的时代”，也被视为“思想的自由时代” C.欧洲中世纪被称为“黑暗的时代”，也被目为“田园牧歌的时代” D.商朝一度被认为是“传说中的时代”，也被认为是“信史时代”
+Candidate Type:	2
+Candidates Segment:	
+哥伦布 到达 美洲 被 称为 “ 发现新大陆 ” ， 也 被 称为 “ 文明 的 相遇 ” nrf v nsf pbei v wyz n wyy wd d pbei v wyz a ude1 vi wyy 
+魏晋南北朝 被 称为 “ 分裂 的 时代 ” ， 也 被 视为 “ 思想 的 自由 时代 ” n pbei v wyz vi ude1 n wyy wd d pbei v wyz n ude1 a n wyy 
+欧洲中世纪 被 称为 “ 黑暗 的 时代 ” ， 也 被 目为 “ 田园牧歌 的 时代 ” n pbei v wyz a ude1 n wyy wd d pbei n wyz n ude1 n wyy 
+商朝 一度 被 认为 是 “ 传说 中的 时代 ” ， 也 被 认为 是 “ 信史时代 ” t n pbei v vshi wyz n n n wyy wd d pbei v vshi wyz n wyy 
+Type:	1
+Materials:	86.对于同一个历史事实，往往由于视角、史料的差异而产生不一样的解释。
+QuestionStem:	下列选项中， 由于新史料的发现而导致不同解释的是
+Original Material:	
+
+Question #72
+Question:	87.卢梭和洛克都是著名的启蒙思想家。在下列洛克关于国家政治的主张中，与卢梭的主张不同的是
+Candidates:	A.议会君主制是最好的政府形式 B.国家源于社会契约 C.人民有权反抗和改变违约政府 D.人人生而自由平等
+Candidate Type:	2
+Candidates Segment:	
+议会君主制 是 最好的 政府 形式 n vshi n n n 
+国家 源于 社会契约 n v n 
+人民 有 权 反抗 和 改变 违约 政府 n vyou n vn cc v vn n 
+人 人生 而 自由 平等 n n cc a a 
+Type:	1
+Materials:	87.卢梭和洛克都是著名的启蒙思想家。
+QuestionStem:	在下列洛克关于国家政治的主张中，与卢梭的主张不同的是
+Original Material:	
+

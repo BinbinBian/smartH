@@ -21,6 +21,18 @@
   </component>
   <component name="CopyrightManager" default="" />
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ChineseAnalyzer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ChineseNLPTools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/NLPRChineseTokenizer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/CACHEENTITY.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/CTrigram.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/ChineseTextProcessor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/NERMachine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/NODE_ATTRIBUTE.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/PublicFunction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/ner/STEP_ATTRIBUTE.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/segment/CSource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/nlpr/segment/StateMachine.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/question/QuestionAcquisition.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
@@ -165,8 +177,5 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
   </component>
 </project>

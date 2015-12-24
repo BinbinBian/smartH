@@ -1,11 +1,13 @@
 package com.question;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.chenlb.mmseg4j.example.Complex;
+import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
 
 /**
  * Author:             Shawn Guo
@@ -25,10 +27,24 @@ public class Question {
     private String question = null;                                 //题目原文
     private HashSet<String> wordSet = new HashSet<>();              //题目分词结果
     private int[] wordVector = null;                                //题目词向量
+    private float[] wordVecTFIDF = null;
+    private ArrayList<String> questionStemEntities = new ArrayList<>();
 
     private String[] candidates = {"", "", "", ""};                 //四个候选答案
     private char answer = ' ';                                      //正确答案标号
-    private int type = 0;                                           //问题类型
+    private int stemType = 0;                                       //问题类型
+    private int candidateType = 0;                                  //根据材料确定的类型
+                                                                    //候选答案的实体识别
+    private ArrayList<String> candidateWords01 = new ArrayList<>();
+    private ArrayList<String> candidateEntities01 = new ArrayList<>();
+    private ArrayList<String> candidatePOS01 = new ArrayList<>();
+    private ArrayList<String> candidateWords02 = new ArrayList<>();
+    private ArrayList<String> candidatePOS02 = new ArrayList<>();
+    private ArrayList<String> candidateWords03 = new ArrayList<>();
+    private ArrayList<String> candidatePOS03 = new ArrayList<>();
+    private ArrayList<String> candidateWords04 = new ArrayList<>();
+    private ArrayList<String> candidatePOS04 = new ArrayList<>();
+
 
     private String material = new String();                         //材料文本
     private HashSet<String> materialWordSet = new HashSet<>();     //材料分词结果
@@ -64,7 +80,7 @@ public class Question {
 
 
 
-    private Complex seger = new Complex(dictionaryPath);
+    //private Complex seger = new Complex(dictionaryPath);
 
     public boolean setQuestion(String input) {
         question = input;
@@ -76,14 +92,15 @@ public class Question {
         return question;
     }
 
-    public void buildWordSet() throws IOException {
+    /**
+    public void buildWordSet(ArrayList<String> stopWordSet) throws IOException {
         String[] wordsSet = seger.segWords(question, "|").split("\\|");
         for (String word : wordsSet) {
-            if (!punctuationSet.contains(word)){
+            if (!punctuationSet.contains(word) && !stopWordSet.contains(word)){
                 wordSet.add(word);
             }
         }
-    }
+    }*/
     public HashSet<String> getWordSet() {
         return wordSet;
     }
@@ -97,6 +114,21 @@ public class Question {
     }
     public void initWordVec(int dimension) {
         wordVector = new int[dimension];
+    }
+
+    public boolean setWordVecTFIDF(int index, float value) {
+        wordVecTFIDF[index] = value;
+        return true;
+    }
+    public boolean setWordVecTFIDF(float[] value) {
+        wordVecTFIDF = value;
+        return true;
+    }
+    public float[] getWordVecTFIDF() {
+        return wordVecTFIDF;
+    }
+    public void initWordVecTFIDF(int dimension) {
+        wordVecTFIDF = new float[dimension];
     }
 
     public boolean setCandidate(int index, String input) {
@@ -119,14 +151,24 @@ public class Question {
         return answer;
     }
 
-    public boolean setType(int typeInt) {
-        type = typeInt;
-        if (type == 0)
+    public boolean setStemType(int stemTypeInt) {
+        stemType = stemTypeInt;
+        if (stemType == 0)
             return false;
         return true;
     }
-    public int getType() {
-        return type;
+    public int getStemType() {
+        return stemType;
+    }
+
+    public boolean setCandidateType(int typeInt) {
+        candidateType = typeInt;
+        if (candidateType == 0)
+            return false;
+        return true;
+    }
+    public int getCandidateType() {
+        return candidateType;
     }
 
     public boolean setMaterial(String input) {
@@ -139,6 +181,7 @@ public class Question {
         return material;
     }
 
+    /**
     public void buildMaterialWordSet() throws IOException {
         String[] wordsSet = seger.segWords(material, "|").split("\\|");
         for (String word : wordsSet) {
@@ -146,7 +189,7 @@ public class Question {
                 materialWordSet.add(word);
             }
         }
-    }
+    }*/
     public HashSet<String> getMaterialWordSet() {
         return materialWordSet;
     }
@@ -181,6 +224,9 @@ public class Question {
         String questionString = question;
         if (material != null) {
             questionStem = questionString.replace(material, "");
+            if (questionStem.startsWith("”")) {
+                questionStem = questionStem.replaceFirst("”", "");
+            }
         }
         else {
             questionStem = question;
@@ -190,14 +236,15 @@ public class Question {
     public String getQuestionStem() {
         return questionStem;
     }
-    public void buildStemWordSet() throws IOException {
+    /**
+    public void buildStemWordSet(ArrayList<String> stopWordSet) throws IOException {
         String[] wordsSet = seger.segWords(questionStem, "|").split("\\|");
         for (String word : wordsSet) {
-            if (!punctuationSet.contains(word)){
+            if (!punctuationSet.contains(word) && !stopWordSet.contains(word)){
                 stemWordSet.add(word);
             }
         }
-    }
+    }*/
     public HashSet<String> getStemWordSet() {
         return stemWordSet;
     }
@@ -213,4 +260,77 @@ public class Question {
         stemWordVec = new int[dimension];
     }
 
+    public boolean setCandidateWordandPOS(int index, ArrayList<String> words, ArrayList<String> pos) {
+        switch (index) {
+            case 1 :
+                candidateWords01 = words;
+                candidatePOS01 = pos;
+                if (candidateWords01 != null && candidatePOS01 != null) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            case 2 :
+                candidateWords02 = words;
+                candidatePOS02 = pos;
+                if (candidateWords02 != null && candidatePOS02 != null) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            case 3 :
+                candidateWords03 = words;
+                candidatePOS03 = pos;
+                if (candidateWords03 != null && candidatePOS03 != null) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            case 4 :
+                candidateWords04 = words;
+                candidatePOS04 = pos;
+                if (candidateWords04 != null && candidatePOS04 != null) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+        }
+        return false;
+    }
+
+    public ArrayList<String> getCandidateWord(int index) {
+        switch (index) {
+            case 1 :
+                return candidateWords01;
+            case 2 :
+                return candidateWords02;
+            case 3 :
+                return candidateWords03;
+            case 4 :
+                return candidateWords04;
+            default:
+                System.err.println("Question getCandidateWordandPOS: Something Wrong!");
+                return null;
+        }
+    }
+
+    public ArrayList<String> getCandidatePOS(int index) {
+        switch (index) {
+            case 1 :
+                return candidatePOS01;
+            case 2 :
+                return candidatePOS02;
+            case 3 :
+                return candidatePOS03;
+            case 4 :
+                return candidatePOS04;
+            default:
+                System.err.println("Question getCandidateWordandPOS: Something Wrong!");
+                return null;
+        }
+    }
 }

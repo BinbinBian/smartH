@@ -4,15 +4,17 @@ import com.shawn.BasicIO;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.lang.Math;
 
 /**
  * Author:             Shawn Guo
  * E-mail:             air_fighter@163.com
  *
  * Create Time:        2015/11/26 10:37
- * Last Modified Time: 2015/12/07 17:03
+ * Last Modified Time: 2015/12/15 09:29
  *
  * Class Name:         QuestionAnalyzer
  * Class Function:
@@ -22,15 +24,23 @@ import java.util.regex.Pattern;
 public class QuestionAnalyzer {
     private String[] regexes = {                                        //切分标识符
             ".+。”",
-            ".+。",
             ".+！”",
-            ".+？”"
+            ".+？”",
+            ".+。"
             };
 
-    private ArrayList<String> wordSet = new ArrayList<>();              //用队列模拟集合，方便后面生成向量。
+    private ArrayList<Integer> typeSet = new ArrayList<>();             //使用type作为建立TFIDF向量
+    private ArrayList<String>  stopWordSet = new ArrayList<>();
+    private ICTCLASSeger seger = null;
 
-    public ArrayList<String> getWordSet() {
-        return wordSet;
+    public void buildStopWordSet(String fileName) {
+        try {
+            stopWordSet = BasicIO.readFile2StringArray(fileName);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public void buildQuestionMaterial(ArrayList<Question> questionList) {
@@ -71,169 +81,237 @@ public class QuestionAnalyzer {
         }
     }
 
-    public void buildWordSet(ArrayList<Question> questionList) {
-        for (Question question : questionList)
-            try {
-                /**
-                question.buildMaterialWordSet();
-                question.getMaterialWordSet().stream().filter(pos -> !wordSet.contains(pos)).forEach(wordSet::add);
-                question.buildStemWordSet();
-                question.getStemWordSet().stream().filter(pos -> !wordSet.contains(pos)).forEach(wordSet::add);
-                 */
-                question.buildWordSet();
-                question.getWordSet().stream().filter(pos -> !wordSet.contains(pos)).forEach(wordSet::add);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        if (wordSet.isEmpty()) {
-            System.err.println("生成的分词结果集合为空！请检查分词结果。");
-        }
-    }
-
-    public void buildWordVector(ArrayList<Question> questionList) {
-        for (Question question : questionList) {
-            //question.initMaterialWordVec(wordSet.size());
-            //question.initStemWordVec(wordSet.size());\
-            question.initWordVec(wordSet.size());
-            for (String word : wordSet) {
-                /**if (question.getMaterialWordSet().contains(word)) {
-                    question.setMaterialWordVec(wordSet.indexOf(word), 1);
-                }
-                else {
-                    question.setMaterialWordVec(wordSet.indexOf(word), 0);
-                }
-                if (question.getStemWordSet().contains(word)) {
-                    question.setStemWordVec(wordSet.indexOf(word), 1);
-                }
-                else {
-                    question.setStemWordVec(wordSet.indexOf(word), 0);
-                }*/
-                if (question.getWordSet().contains(word)) {
-                    question.setWordVec(wordSet.indexOf(word), 1);
-                }
-                else {
-                    question.setWordVec(wordSet.indexOf(word), 0);
-                }
-            }
-        }
-    }
-
-    public void buildQuestionType(ArrayList<Question> questionList) {
+    public void buildQuestionType(ArrayList<Question> questionList, String fileName) {
         int[] readType = new int[questionList.size()];
         try {
-            readType = BasicIO.readFile2IntArray(questionList.size(), "data\\questions\\classification87.txt");
+            readType = BasicIO.readFile2IntArray(questionList.size(), fileName);
             for (int index = 0; index < questionList.size(); index++) {
-                questionList.get(index).setType(readType[index]);
+                questionList.get(index).setStemType(readType[index]);
+                if (!typeSet.contains(readType[index])) {
+                    typeSet.add(readType[index]);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void testQuesitonType(ArrayList<Question> questionList) {
+        int rightNum = 0;
+        QuestionClassifier classifier = new QuestionClassifier();
+        classifier.initRegexes();
+        for (Question question : questionList) {
+            String regex = question.getQuestionStem();
+            //regex = regex.replaceAll(".*”", "");
+            int type = classifier.computeStemType(regex);
+            if(type != question.getStemType()) {
+                System.out.println("#" + Integer.sum(questionList.indexOf(question),1) + "\t" + regex);
+                System.out.println("\ttype:" + type + "\trightType:" + question.getStemType());
+            }
+            else {
+                rightNum++;
+            }
+        }
+
+        System.out.println("共有" + questionList.size() + "道题目，其中" + rightNum +"道分类正确。");
+    }
+
+    public void buildCandidateType(ArrayList<Question> questionList) {
+        String[] multiConj = {
+                "、",
+                "与",
+                "和",
+                "——",
+                "，",
+                "→"
+        };
+        for (Question question : questionList) {
+            //System.out.println("#" + questionList.indexOf(question));
+            int singleEntity = 0;
+            int multiEntity = 0;
+            int sentence = 0;
+            for (int i = 1; i <= 4; i++) {
+                try {
+                    String tokenStr = seger.tokenizeAndTag(question.getCandidates(i - 1));
+                    ArrayList<String> words = new ArrayList<>();
+                    ArrayList<String> pos = new ArrayList<>();
+
+                    for (String wordPOS : tokenStr.split(" ")) {
+                        if (wordPOS.length() >=3 && wordPOS.contains("/")) {
+                            words.add(wordPOS.split("/")[0]);
+                            pos.add(wordPOS.split("/")[1]);
+                        }
+                    }
+                    question.setCandidateWordandPOS(i, words, pos);
+
+                    boolean posContainOther = false;
+                    for (String po : pos) {
+                        if (po.startsWith("v") ||                           //wyz是书名号，所以不能通过!startsWith("n")判断
+                            po.startsWith("d") ||
+                            po.startsWith("r") ||
+                            po.startsWith("a") // ||
+                            //po.startsWith("u")
+                           ) {
+                            posContainOther = true;
+                            break;
+                        }
+                    }
+
+                    boolean wordContainConj = false;
+                    for (String conj : multiConj) {
+                        if (words.contains(conj)) {
+                            wordContainConj = true;
+                            break;
+                        }
+                    }
+
+                    if (posContainOther) {
+                        sentence++;
+                    }
+                    else if (wordContainConj) {
+                        multiEntity++;
+                    }
+                    else {
+                        singleEntity++;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (max(singleEntity, multiEntity, sentence) == singleEntity
+                    &&  singleEntity >= 3) {
+                question.setCandidateType(0);
+            }
+            else if (max(singleEntity, multiEntity, sentence) == multiEntity) {
+                question.setCandidateType(1);
+            }
+            else {
+                question.setCandidateType(2);
+            }
+        }
+    }
+
+    public int max(int a, int b, int c) {
+        return Math.max(a, Math.max(b, c));
+    }
+
+    public void testCandidateType(ArrayList<Question> questionList) {
+        int rightNum = 0;
+        int[] type = null;
+        try {
+            type = BasicIO.readFile2IntArray(questionList.size(),
+                    System.getProperty("user.dir") + "\\data\\questions\\entityclassification700.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for (Question question : questionList) {
+
+            if(type[questionList.indexOf(question)] != question.getCandidateType()) {
+                System.out.print("#" + Integer.sum(questionList.indexOf(question),1) + "\t");
+                for (int i = 1; i <= 4; i++) {
+                    ArrayList<String> words = question.getCandidateWord(i);
+                    for (String word : words) {
+                        System.out.print(word + " ");
+                    }
+                    ArrayList<String> pos = question.getCandidatePOS(i);
+                    for (String po : pos) {
+                        System.out.print(po + " ");
+                    }
+                    System.out.println();
+                }
+                System.out.println("type:" + question.getCandidateType() +
+                        "\trightType:" + type[questionList.indexOf(question)]);
+            }
+            else {
+                rightNum++;
+            }
+        }
+
+        System.out.println("共有" + questionList.size() + "道题目，其中" + rightNum +"道分类正确。");
     }
 
     public static void main(String[] args) throws Exception{
         QuestionAnalyzer self = new QuestionAnalyzer();
         QuestionAcquisition acquisition = new QuestionAcquisition();
 
+        System.out.print("Getting questions...");
         try {
-            acquisition.init("data\\questions\\questions87.txt");
+            acquisition.init("\\data\\questions\\questions700.txt");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+        System.out.println("Done!");
 
+        //self.seger = new ICTCLASSeger();
+        self.seger = new ICTCLASSeger("\\data\\dicts\\databasic\\words-filter.dic");
+
+        System.out.print("Analyzer: building stop words...");
+        self.buildStopWordSet("data\\dicts\\stopwords_cn.txt");
+        System.out.println("Done!");
+
+        System.out.print("Analyzer: building Question's material...");
         self.buildQuestionMaterial(acquisition.questionList);
-        self.buildWordSet(acquisition.questionList);
-        self.buildWordVector(acquisition.questionList);
-        self.buildQuestionType(acquisition.questionList);
+        System.out.println("Done!");
+
+        System.out.print("Analyzer: building Question's stemType");
+        self.buildQuestionType(acquisition.questionList, "data\\questions\\classification700.txt");
+        System.out.println("Done!");
+
+        System.out.print("Analyzer: building Question's candidateType");
+        self.buildCandidateType(acquisition.questionList);
+        System.out.println("Done!");
 
         System.out.println("Now, it's outputting");
-
         File outputFile = new File("out\\output.txt");
-        File svmTrainFile = new File("data\\svm\\train.txt");
         try {
             FileOutputStream outputStream = new FileOutputStream(outputFile);
             PrintStream printStream = new PrintStream(outputStream);
-
-            FileOutputStream svmTrainOutputFile = new FileOutputStream(svmTrainFile);
-            PrintStream svmTrainPrint = new PrintStream(svmTrainOutputFile);
 
             int i = 0;
             for (Question question : acquisition.questionList) {
                 i += 1;
                 printStream.println("Question #" + i);
+
                 printStream.println("Question:\t" + question.getQuestion());
                 printStream.println("Candidates:\tA." + question.getCandidates(0)
                         + " B." + question.getCandidates(1)
                         + " C." + question.getCandidates(2)
                         + " D." + question.getCandidates(3));
-                printStream.println("Type:\t" + question.getType());
-                svmTrainPrint.print(question.getType() + " ");
+                printStream.println("Candidate Type:\t" + question.getCandidateType());
+
+                printStream.println("Candidates Segment:\t");
+                for (int j = 1; j <= 4; j++) {
+                    ArrayList<String> words = question.getCandidateWord(j);
+                    ArrayList<String> pos = question.getCandidatePOS(j);
+                    for (String word : words) {
+                        printStream.print(word + " ");
+                    }
+                    for (String po : pos) {
+                        printStream.print(po + " ");
+                    }
+                    printStream.println();
+                }
+
+                printStream.println("Type:\t" + question.getStemType());
 
                 printStream.println("Materials:\t" + question.getMaterial());
-                /**printStream.print("POS result:\t");
-                for (String word : question.getMaterialWordSet()) {
-                    printStream.print(word + " ");
-                }
-                printStream.println();
-                printStream.print("MaterialWordVec:\t");
-                for (int index = 0; index < self.wordSet.size(); index++) {
-                    printStream.print(question.getMaterialWordVec()[index] + " ");
-                    if (question.getMaterialWordVec()[index] != 0) {
-                        svmTrainPrint.print(index + ":" + question.getMaterialWordVec()[index] + " ");
-                    }
-                }
-                printStream.println();
-                svmTrainPrint.println();
-                 */
-
                 printStream.println("QuestionStem:\t" + question.getQuestionStem());
-                /**printStream.print("POS result:\t");
-                for (String word : question.getStemWordSet()) {
-                    printStream.print(word + " ");
-                }
-                printStream.println();
-                printStream.print("StemWordVec:\t");
-                for (int index = 0; index < self.wordSet.size(); index++) {
-                    printStream.print(question.getStemWordVec()[index] + " ");
-                    if (question.getStemWordVec()[index] != 0) {
-                        svmTrainPrint.print(index + ":" + question.getStemWordVec()[index] + " ");
-                    }
-                }
-                printStream.println();
-                svmTrainPrint.println();
-                 */
-
-                printStream.print("POS result:\t");
-                for (String word : question.getWordSet()) {
-                    printStream.print(word + " ");
-                }
-                printStream.println();
-                printStream.print("WordVec:\t");
-                for (int index = 0; index < self.wordSet.size(); index++) {
-                    printStream.print(question.getWordVec()[index] + " ");
-                    if (question.getWordVec()[index] != 0) {
-                        svmTrainPrint.print(index + ":" + question.getWordVec()[index] + " ");
-                    }
-                }
-                printStream.println();
-                svmTrainPrint.println();
 
                 printStream.print("Original Material:\t");
                 for (String originalMaterial : question.getOrignialMaterials()) {
                     printStream.print(originalMaterial + " ");
                 }
                 printStream.println();
+                printStream.println();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
-
-        System.out.println("词目数量：" + self.getWordSet().size());
-        for (String word : self.getWordSet()) {
-            System.out.print(word + " ");
-        }
-
+        self.testQuesitonType(acquisition.questionList);
+        self.testCandidateType(acquisition.questionList);
     }
 }
