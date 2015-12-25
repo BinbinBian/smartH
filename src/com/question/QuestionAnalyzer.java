@@ -1,10 +1,12 @@
 package com.question;
 
 import com.shawn.BasicIO;
+import org.ansj.domain.Term;
+import org.ansj.splitWord.analysis.NlpAnalysis;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.lang.Math;
@@ -31,7 +33,6 @@ public class QuestionAnalyzer {
 
     private ArrayList<Integer> typeSet = new ArrayList<>();             //使用type作为建立TFIDF向量
     private ArrayList<String>  stopWordSet = new ArrayList<>();
-    private ICTCLASSeger seger = null;
 
     public void buildStopWordSet(String fileName) {
         try {
@@ -125,6 +126,7 @@ public class QuestionAnalyzer {
                 "，",
                 "→"
         };
+
         for (Question question : questionList) {
             //System.out.println("#" + questionList.indexOf(question));
             int singleEntity = 0;
@@ -132,16 +134,17 @@ public class QuestionAnalyzer {
             int sentence = 0;
             for (int i = 1; i <= 4; i++) {
                 try {
-                    String tokenStr = seger.tokenizeAndTag(question.getCandidates(i - 1));
+                    List<Term> tokenTerms = NlpAnalysis.parse(question.getCandidates(i - 1));
                     ArrayList<String> words = new ArrayList<>();
                     ArrayList<String> pos = new ArrayList<>();
 
-                    for (String wordPOS : tokenStr.split(" ")) {
-                        if (wordPOS.length() >=3 && wordPOS.contains("/")) {
-                            words.add(wordPOS.split("/")[0]);
-                            pos.add(wordPOS.split("/")[1]);
+                    for (Term term : tokenTerms) {
+                        if (term.toString().length() >=3 && term.toString().contains("/")) {
+                            words.add(term.toString().split("/")[0]);
+                            pos.add(term.toString().split("/")[1]);
                         }
                     }
+
                     question.setCandidateWordandPOS(i, words, pos);
 
                     boolean posContainOther = false;
@@ -196,12 +199,12 @@ public class QuestionAnalyzer {
         return Math.max(a, Math.max(b, c));
     }
 
-    public void testCandidateType(ArrayList<Question> questionList) {
+    public void testCandidateType(ArrayList<Question> questionList, String answerFile) {
         int rightNum = 0;
         int[] type = null;
         try {
             type = BasicIO.readFile2IntArray(questionList.size(),
-                    System.getProperty("user.dir") + "\\data\\questions\\entityclassification700.txt");
+                    System.getProperty("user.dir") + answerFile);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -237,7 +240,7 @@ public class QuestionAnalyzer {
 
         System.out.print("Getting questions...");
         try {
-            acquisition.init("\\data\\questions\\questions700.txt");
+            acquisition.init("./data/questions/questions87.txt");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
@@ -246,10 +249,9 @@ public class QuestionAnalyzer {
         System.out.println("Done!");
 
         //self.seger = new ICTCLASSeger();
-        self.seger = new ICTCLASSeger("\\data\\dicts\\databasic\\words-filter.dic");
 
         System.out.print("Analyzer: building stop words...");
-        self.buildStopWordSet("data\\dicts\\stopwords_cn.txt");
+        self.buildStopWordSet("data/dicts/stopwords_cn.txt");
         System.out.println("Done!");
 
         System.out.print("Analyzer: building Question's material...");
@@ -257,7 +259,7 @@ public class QuestionAnalyzer {
         System.out.println("Done!");
 
         System.out.print("Analyzer: building Question's stemType");
-        self.buildQuestionType(acquisition.questionList, "data\\questions\\classification700.txt");
+        self.buildQuestionType(acquisition.questionList, "data/questions/classification87.txt");
         System.out.println("Done!");
 
         System.out.print("Analyzer: building Question's candidateType");
@@ -265,7 +267,7 @@ public class QuestionAnalyzer {
         System.out.println("Done!");
 
         System.out.println("Now, it's outputting");
-        File outputFile = new File("out\\output.txt");
+        File outputFile = new File("out/output.txt");
         try {
             FileOutputStream outputStream = new FileOutputStream(outputFile);
             PrintStream printStream = new PrintStream(outputStream);
@@ -312,6 +314,6 @@ public class QuestionAnalyzer {
         }
 
         self.testQuesitonType(acquisition.questionList);
-        self.testCandidateType(acquisition.questionList);
+        self.testCandidateType(acquisition.questionList, "/data/questions/entityclassification87.txt");
     }
 }
